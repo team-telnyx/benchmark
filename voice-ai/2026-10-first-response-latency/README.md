@@ -23,17 +23,18 @@ Read [`report/REPORT.md`](report/REPORT.md) (or the [PDF](report/Telnyx-Voice-Ag
 | Path | What it is |
 |---|---|
 | `report/` | The report (Markdown and PDF) |
-| `data/providers-final.csv` | Median, p95 and 95% CI per platform for each of six definitions (three onset thresholds × two caller-end methods) |
-| `data/calls-2026-10-22.csv`, `data/calls-2026-10-23.csv` | Per-call measurements from the two run windows |
-| `data/stats-by-threshold.json`, `data/channel-separation.json`, `data/block-timings.json`, `data/elevenlabs-decomposition.json` | Supporting measurements |
+| `data/calls.csv` | One row per measured call (250): first-response latency under each of the six definitions. Call IDs are anonymized. |
+| `data/providers-final.csv` | Median, p95, mean, min, max and 95% CI per platform for each of the six definitions (three onset thresholds × two caller-end methods), computed from `calls.csv` |
+| `data/block-timings.json` | When each platform's calls ran |
+| `data/README.md` | Column definitions |
 | `config/measurement-config.json` | Thresholds, seeds and definitions used |
 | `config/provider-configurations.json` | Each platform's configuration at test time (identifiers redacted) |
-| `scripts/` | The analysis and runner scripts, copied from VAATT for reference |
+| `scripts/` | The analysis scripts, copied from VAATT for reference |
 
 ## Reproducing
 
 - The scripts import from and expect the layout of the VAATT repository (`@vaatt/core`, `results/...` paths). Run them from a VAATT checkout with Bun; they are included here so the method is readable alongside the results.
-- `scripts/unified-latency.ts` recomputes the per-platform statistics from the recordings. The report text itself is written by hand; its numbers come from `data/providers-final.csv`.
+- `scripts/unified-latency.ts` recomputes the per-call values and per-platform statistics from the recordings. `data/calls.csv` reproduces every figure in `data/providers-final.csv`, and re-running the script reproduces `providers-final.csv` exactly. The report text itself is written by hand; its numbers come from `providers-final.csv`.
 - Raw call recordings and run records are not in this repository: they contain test phone numbers, call identifiers and expiring recording links. Ask the benchmark owner if you need them.
 - Re-running requires live provider accounts and test phone numbers and places real, billed calls.
 
