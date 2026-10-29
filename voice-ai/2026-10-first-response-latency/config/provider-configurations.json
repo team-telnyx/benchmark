@@ -18,7 +18,7 @@
     "source": "live API read (top-level response)"
   },
   "elevenlabs": {
-    "agent_id": "agent_2601kxm34zm4etasyycmznh91b2h",
+    "agent_id": "[redacted]",
     "llm": "qwen36-35b-a3b",
     "first_message": "",
     "voice": "cjVigY5qzO86Huf0OWal",
@@ -62,7 +62,7 @@
   },
   "livekit": {
     "agent_id": "[redacted] (livekit-latency-v1)",
-    "version": "x88EkVyGGQEu",
+    "version": "[redacted]",
     "llm": "livekit-inference/google/gemma-4-31b-it",
     "voice": "Deepgram Aura-2 (athena)",
     "stt": "livekit-inference/deepgram/nova-3",

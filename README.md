@@ -1,44 +1,34 @@
 # Telnyx benchmarks
 
-Benchmarks of voice-AI platforms, run with [VAATT](https://github.com/team-telnyx/vaatt), Telnyx's scenario-based test harness for voice agents.
+Benchmarks run by Telnyx staff. Each section holds a family of benchmarks, and each run lives in its own dated folder with its report, data, configuration and scripts.
 
-## Voice-agent first-response latency, October 2026
+## Sections
 
-How long five platforms take to start talking after a caller finishes a sentence. About 50 real phone calls per platform, one scenario (an appointment reschedule), measured from the call recording.
+| Section | What it covers | Runs |
+|---|---|---|
+| [`voice-ai/`](voice-ai/) | Voice-AI agent platforms measured over real phone calls | 1 |
+| [`inference/`](inference/) | Inference benchmarks | none yet |
 
-| Platform | Calls measured | Median (ms) | 95% CI on median | p95 (ms) |
-|---|---|---|---|---|
-| Telnyx | 51 | 880 | 860–900 | 1020 |
-| Retell | 49 | 1000 | 940–1080 | 1420 |
-| ElevenLabs | 51 | 1340 | 1180–1500 | 2040 |
-| LiveKit | 50 | 1780 | 1700–1900 | 2211 |
-| Vapi | 49 | 2180 | 2120–2220 | 2704 |
+## Adding a run
 
-First-response latency is the time from the caller's last audible sound to the agent's first audible sound. The order Telnyx, Retell, ElevenLabs, LiveKit, Vapi held under every definition tested. Exact values move by about 100–150 ms depending on the definition. Telnyx's lead over Retell is small (about 0.1 s).
+Create a folder under the right section named `YYYY-MM-short-name` and follow the layout used by the existing run:
 
-Read [`report/REPORT.md`](report/REPORT.md) (or the [PDF](report/Telnyx-Voice-Agent-Latency-Benchmark.pdf)) for the method, configurations tested, scope and what the data does and doesn't support.
+```
+<section>/<YYYY-MM-short-name>/
+  README.md     what was measured, headline results, how to read them, disclosure
+  report/       the full write-up
+  data/         results and per-call measurements
+  config/       measurement settings and the configurations that were tested
+  scripts/      the code used (copies are fine if it lives elsewhere)
+```
 
-**Read before quoting:** each platform was measured in its own configuration, calls ran in provider blocks (not interleaved), and Telnyx is on the same network as the caller. The results describe these configurations on this scenario, not the platforms in general.
+Then add the run to its section's table.
 
-## Layout
+Every run should state, in its README:
 
-| Path | What it is |
-|---|---|
-| `report/` | The report (Markdown and PDF) |
-| `data/providers-final.csv` | Median, p95 and 95% CI per platform for each of six definitions (three onset thresholds × two caller-end methods) |
-| `data/calls-2026-10-22.csv`, `data/calls-2026-10-23.csv` | Per-call measurements from the two run windows |
-| `data/stats-by-threshold.json`, `data/channel-separation.json`, `data/block-timings.json`, `data/elevenlabs-decomposition.json` | Supporting measurements |
-| `config/measurement-config.json` | Thresholds, seeds and definitions used |
-| `config/provider-configurations.json` | Each platform's configuration at test time (identifiers redacted) |
-| `scripts/` | The analysis and runner scripts, copied from VAATT for reference |
+- what was measured and how, in one definition;
+- the configurations tested, so results aren't read as statements about whole platforms;
+- the scope (scenario, sample size, dates) and any known limits;
+- that it was run by Telnyx staff, and whether Telnyx's own product was in the comparison.
 
-## Reproducing
-
-- The scripts import from and expect the layout of the VAATT repository (`@vaatt/core`, `results/...` paths). Run them from a VAATT checkout with Bun; they are included here so the method is readable alongside the results.
-- `scripts/unified-latency.ts` recomputes the per-platform statistics from the recordings. The report text itself is written by hand; its numbers come from `data/providers-final.csv`.
-- Raw call recordings and run records are not in this repository: they contain test phone numbers, call identifiers and expiring recording links. Ask the benchmark owner if you need them.
-- Re-running requires live provider accounts and test phone numbers and places real, billed calls.
-
-## Disclosure
-
-Run by Telnyx staff on a Telnyx-built test harness, October 22–23, 2026. The simulated caller uses Telnyx services, and the Telnyx agent is on the same network as the caller.
+Don't commit raw recordings, call logs or anything containing phone numbers, call identifiers, account IDs or keys.
