@@ -1,0 +1,69 @@
+{
+  "version": "final-1",
+  "definitions": {
+    "primaryMetric": "First-response latency: from the caller's last audible word to the agent's first audible word, both measured acoustically from the call recording at one common observation point.",
+    "correlation": "Pearson cross-correlation between the mono-mix recording window at the best alignment offset and a TTS reference render of the scripted opening (or its observed paraphrase variant). Measures how closely the recorded caller audio matches the synthetic reference; degraded by PSTN codec distortion, line noise, agent audio mixed into the caller channel, paraphrase variance beyond the rendered references, and resampling.",
+    "transcriptLatency": "Deprecated diagnostic: gap between VAATT transcript timestamps (STT finalization events at the session clock), inflated by endpointing wait, STT finalization and webhook delivery. Reported only as a cross-check.",
+    "callerPathOffset": "The difference between VAATT's audio-based measurement and a provider's own server-side first-audio timing, measured on matched calls. It is a bound on harness overhead common to all providers, not subtracted from results."
+  },
+  "thresholds": {
+    "correlationMin": 0.6,
+    "correlationMinNote": "Set to 0.6: only 1 of 264 calls falls below it; the cross-check by correlation band (see report) shows boundary agreement holds across the 0.6-1.0 range. Calls below the floor are excluded from latency samples and counted per provider.",
+    "vadPrimary": {
+      "frameMs": 20,
+      "thresholdDbfs": -35,
+      "attackFrames": 3,
+      "hangoverFrames": 15,
+      "mergeGapMs": 800
+    },
+    "vadCrossCheck": {
+      "frameMs": 40,
+      "noiseFloorPercentile": 10,
+      "noiseFloorMarginDb": 12,
+      "attackFrames": 2,
+      "hangoverFrames": 5,
+      "minSegmentMs": 150
+    },
+    "crossCheckSample": {
+      "perProvider": 6,
+      "slowest": 1,
+      "lowestCorrelation": 2,
+      "randomMin": 3,
+      "randomSeed": 42
+    },
+    "onsetGuardMs": 150,
+    "greetingWindowMs": 10000
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 42,
+    "statistic": "p50",
+    "ci": 95
+  },
+  "windows": [
+    {
+      "id": "batch-2026-10-22",
+      "recordings": "results/backup-2026-10-22/recordings",
+      "runs": "results/backup-2026-10-22/runs",
+      "callCapSeconds": 120
+    },
+    {
+      "id": "completion-2026-10-23",
+      "recordings": "results/backup-2026-10-23/recordings",
+      "runs": "results/backup-2026-10-23/runs",
+      "callCapSeconds": 60
+    }
+  ],
+  "providerInternalTiming": {
+    "elevenlabs": {
+      "source": "results/audio-latency/elevenlabs-decomposition.json",
+      "field": "theirTTFaudio"
+    },
+    "retell": {
+      "source": "results/audio-latency-final/retell-internal-timing.json",
+      "field": "theirFirstAudioMs",
+      "note": "Retell API POST /v2/list-calls; latency.e2e.values[0] = first-turn end-to-end latency (user speech end to agent audio), matched to our runs by dial time. Measured offset: median 11 ms over 49 matched calls."
+    },
+    "vapi": "not used - Vapi exposes LLM-output message timestamps, not first-audio timing; an offset derived from them would conflate their TTS with harness overhead."
+  }
+}

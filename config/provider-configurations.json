@@ -1,0 +1,74 @@
+{
+  "telnyx": {
+    "assistant_id": "[redacted]",
+    "name": "Voice AI Benchmark - Telnyx Latency V1",
+    "llm": "zai-org/GLM-5.3-Flash",
+    "greeting": "",
+    "voice": "Telnyx.Ultra.[redacted]",
+    "stt": "deepgram/nova-3",
+    "start_speaking_wait_s": 0.1,
+    "endpointing": {
+      "on_punctuation_seconds": 0.1,
+      "on_no_punctuation_seconds": 0.1,
+      "on_number_seconds": 0.1
+    },
+    "interruptions": true,
+    "noise_suppression": "disabled",
+    "route": "PSTN → TeXML app → assistant (same account as caller: on-net)",
+    "source": "live API read (top-level response)"
+  },
+  "elevenlabs": {
+    "agent_id": "agent_2601kxm34zm4etasyycmznh91b2h",
+    "llm": "qwen36-35b-a3b",
+    "first_message": "",
+    "voice": "cjVigY5qzO86Huf0OWal",
+    "tts_model": "eleven_flash_v2",
+    "asr": "scribe_realtime",
+    "turn_mode": "turn",
+    "turn_model": "turn_v3",
+    "speculative_turn": false,
+    "turn_eagerness": "normal",
+    "route": "PSTN → Telnyx FQDN → ElevenLabs SIP trunk",
+    "mode": "Custom (not managed Realtime)",
+    "source": "live API read"
+  },
+  "vapi": {
+    "assistant_id": "[redacted]",
+    "llm_at_measurement": "gpt-4.1-nano",
+    "llm_current": "gpt-5-nano",
+    "updated_at": "2026-10-24T10:21:14.551Z",
+    "note": "the assistant was updated to gpt-5-nano on 2026-10-24T10:21Z — AFTER both benchmark windows. Both windows measured gpt-4.1-nano.",
+    "first_message": "",
+    "first_message_mode": "assistant-waits-for-user",
+    "voice": "Elliot",
+    "stt": "nova-2",
+    "endpointing": {
+      "waitSeconds": 0.4,
+      "smartEndpointingEnabled": "livekit"
+    },
+    "end_call_tool": true,
+    "route": "PSTN → Vapi native number",
+    "source": "live API read"
+  },
+  "retell": {
+    "agent_id": "[redacted]",
+    "served_agent_version": 4,
+    "llm": "GPT-4.1 (via get-retell-llm [redacted])",
+    "voice": "retell-Cimo",
+    "stt": "Retell native (fast)",
+    "greeting": "v4 begin_message empty — caller-first held on all measured calls",
+    "route": "PSTN → Telnyx FQDN → Retell SIP",
+    "source": "live API read (agent config + call records for version pinning)"
+  },
+  "livekit": {
+    "agent_id": "[redacted] (livekit-latency-v1)",
+    "version": "x88EkVyGGQEu",
+    "llm": "livekit-inference/google/gemma-4-31b-it",
+    "voice": "Deepgram Aura-2 (athena)",
+    "stt": "livekit-inference/deepgram/nova-3",
+    "turn_detection": "LiveKit turn-detector, preemptive generation",
+    "interruptions": "greeting allow interruptions: true",
+    "route": "PSTN → LiveKit native number → SIP dispatch → room → agent",
+    "source": "deployed source snapshot + manifest (worker code is not API-queryable)"
+  }
+}

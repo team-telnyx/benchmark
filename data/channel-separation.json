@@ -1,0 +1,2002 @@
+[
+ {
+  "file": "appointment-reschedule-elevenlabs-001-73542904-a29d-4665-b16a-dfb6dc3dfdaa.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.2206130743365,
+  "ch2Db": -23.437773865344372,
+  "sepDb": 59.78283920899213,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-001-82bd828c-b25b-4faa-94db-acc4ebf75088.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.25948740924231,
+  "ch2Db": -25.37440846723793,
+  "sepDb": 56.885078942004384,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-002-5a43bf28-bc38-47f3-b52e-8c374a448cb9.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.16639982989398,
+  "ch2Db": -23.41812172621745,
+  "sepDb": 59.748278103676526,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-003-3a93416f-ccf0-4d95-9bc5-a30e16b7ff7f.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.61294869747101,
+  "ch2Db": -24.961196044229858,
+  "sepDb": 57.651752653241154,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-004-c0145606-b9d9-4a43-a62e-6a3f24bdb6e3.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.20577963313852,
+  "ch2Db": -23.423099633686636,
+  "sepDb": 59.78267999945189,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-005-b27689e8-f810-4132-a026-f06f2ee9f731.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.08697989114329,
+  "ch2Db": -23.4319746806025,
+  "sepDb": 59.655005210540786,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-006-fceacd32-e221-40da-aad5-5e6d4dca0a5c.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.97328143821099,
+  "ch2Db": -23.416065290928398,
+  "sepDb": 59.55721614728259,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-007-8ce54b1a-c093-4798-9372-1184a321ab83.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.18039805254978,
+  "ch2Db": -23.416891288762997,
+  "sepDb": 59.76350676378678,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-008-8d7b2adb-5cd9-4b9d-be54-1be27b15847b.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.27923935659004,
+  "ch2Db": -25.370927235669388,
+  "sepDb": 57.908312120920655,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-009-efed045c-4406-4b9a-9d71-fbe760ee76d0.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.02579912773174,
+  "ch2Db": -25.36757834442938,
+  "sepDb": 57.65822078330237,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-010-60acd087-d802-4447-a8e6-4bb6c99b7a86.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.25556539770032,
+  "ch2Db": -23.420257383861216,
+  "sepDb": 59.83530801383911,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-011-e133389a-3d28-4582-92c8-743687bed618.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.26063263708033,
+  "ch2Db": -25.36537183636366,
+  "sepDb": 57.89526080071667,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-012-f7861291-2c91-4a4d-bec4-5c6b2112e903.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.26828036743572,
+  "ch2Db": -25.366399449922923,
+  "sepDb": 57.9018809175128,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-013-f643282a-adf5-4ef0-8a8f-08857c3925b6.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.27974141040727,
+  "ch2Db": -23.433188514947084,
+  "sepDb": 59.846552895460185,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-014-9e1ccb03-3f49-4cd5-afa2-44d7cab47baa.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.32784819044565,
+  "ch2Db": -25.371533891396005,
+  "sepDb": 57.956314299049644,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-015-afdb5567-a3da-4b57-88d7-3bac76ad7f17.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.27723172150505,
+  "ch2Db": -24.949574458137683,
+  "sepDb": 58.327657263367364,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-016-f0f82d30-21fc-4d08-853e-db9c25286d9d.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.31843015371769,
+  "ch2Db": -25.36413404740638,
+  "sepDb": 57.954296106311304,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-017-92302a1d-d72c-400d-8585-dfddbfb6c364.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.1858696123807,
+  "ch2Db": -23.46274827401427,
+  "sepDb": 59.723121338366425,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-018-d0332c3c-bb00-4040-827b-4c61d67451e9.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.03006332070095,
+  "ch2Db": -25.370918833990604,
+  "sepDb": 57.659144486710346,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-019-31dce93c-ead7-4e60-bd61-f5e25d700f83.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.33183890094952,
+  "ch2Db": -25.37617965119967,
+  "sepDb": 57.95565924974985,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-020-79ecef14-14b6-4312-9ff6-60e2e2acf52b.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.08108324902435,
+  "ch2Db": -23.416617025866845,
+  "sepDb": 59.664466223157504,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-021-86c814fe-21e8-4f47-941c-6b812ec971ab.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.32828336252496,
+  "ch2Db": -25.37198217948844,
+  "sepDb": 57.956301183036516,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-022-cc0d72f5-99cf-4455-8dcb-9a70fb1780db.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.05798533221612,
+  "ch2Db": -25.361850474228472,
+  "sepDb": 57.696134857987644,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-023-be1c0974-e8e1-452c-9a56-fe46d01f7375.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.31047696704942,
+  "ch2Db": -25.36278596769499,
+  "sepDb": 57.947690999354435,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-024-7f37eb06-5246-45b4-aa42-1604a5bd363c.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.1157548970949,
+  "ch2Db": -25.36532455737298,
+  "sepDb": 57.75043033972192,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-025-b54dbb3e-d3ef-434f-938c-5039efd218cb.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.05764456744164,
+  "ch2Db": -23.455100868080528,
+  "sepDb": 59.602543699361114,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-026-7f434e9c-e86a-4229-bd3c-809a879eb8c0.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.18790566948064,
+  "ch2Db": -25.36733192416724,
+  "sepDb": 57.8205737453134,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-027-13244388-14c1-452e-996e-b30c6271c05e.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.0109410483893,
+  "ch2Db": -23.464470658264645,
+  "sepDb": 59.546470390124654,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-028-59ff2364-4e5e-43e5-b771-bd9a6d580e9b.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.12363582806225,
+  "ch2Db": -25.360633661607896,
+  "sepDb": 57.763002166454356,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-029-6f4fd6a4-9814-4784-8988-c8abaad3eadc.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.12079981108526,
+  "ch2Db": -23.43088101572731,
+  "sepDb": 59.689918795357954,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-030-aac27b68-0cf2-406e-912f-97349a2aa784.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.02627272024418,
+  "ch2Db": -25.361435341230102,
+  "sepDb": 57.664837379014074,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-031-1ef8a83c-5ce8-4ed7-89d0-439013226d4c.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.16856660185131,
+  "ch2Db": -25.37203228572263,
+  "sepDb": 57.796534316128685,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-032-c3180537-48b7-4d5f-b7fb-62a659be03e0.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.07505775191143,
+  "ch2Db": -25.370626904321604,
+  "sepDb": 57.704430847589826,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-033-0ac14711-0463-4715-ba3b-0321a6c24caf.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.1375660861358,
+  "ch2Db": -25.376152494543472,
+  "sepDb": 57.76141359159233,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-034-931f46a9-0460-4221-b0f2-93e5c6d0e0b3.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.06037143458867,
+  "ch2Db": -25.370687655356875,
+  "sepDb": 57.6896837792318,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-035-9a1f725a-028f-4247-919a-9af9cd70864b.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.18109914946292,
+  "ch2Db": -25.36079017189053,
+  "sepDb": 57.820308977572395,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-036-d440cd7d-2f50-4c1a-bb61-fb2661de7641.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.24423903621296,
+  "ch2Db": -25.355269071829643,
+  "sepDb": 57.88896996438332,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-037-27f32b9d-d19e-48f0-892c-c613ed00afb0.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.15885950839888,
+  "ch2Db": -25.362123195515448,
+  "sepDb": 57.796736312883425,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-038-497c2a8e-c1fb-473e-a8f7-ddab2865acec.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.95913459091439,
+  "ch2Db": -25.373815756298185,
+  "sepDb": 57.5853188346162,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-039-fe7adf16-824c-4413-af65-63683e5e5df3.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.26041840870099,
+  "ch2Db": -23.466103467514085,
+  "sepDb": 59.7943149411869,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-040-c42867f9-d1f1-4efa-8bb9-df4890aa3e5f.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.18053826287826,
+  "ch2Db": -23.419499414869996,
+  "sepDb": 59.76103884800826,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-041-7c8e1658-83ae-4b8e-bd83-4d08df4d5300.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.97341511869791,
+  "ch2Db": -25.367785574964273,
+  "sepDb": 57.60562954373364,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-042-a639cec6-f7cf-40d2-ac57-1d78201f7289.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.53878046136825,
+  "ch2Db": -25.361741465020266,
+  "sepDb": 57.17703899634798,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-043-d4cd4ffc-7c0e-48ea-985a-9f6b84e176ca.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.09460252815647,
+  "ch2Db": -25.365150475776062,
+  "sepDb": 57.72945205238041,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-044-29e79e93-4d83-4eb7-b1a8-ac6467712d02.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -82.77399797030216,
+  "ch2Db": -25.363126120285585,
+  "sepDb": 57.410871850016576,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-045-2d281ab1-3d5a-4945-8727-464c66c5f344.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.20916567004055,
+  "ch2Db": -23.421951682940808,
+  "sepDb": 59.78721398709974,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-046-f43144bd-faf8-4b09-bb47-00259123d022.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.21615771983531,
+  "ch2Db": -25.366355075530016,
+  "sepDb": 57.84980264430529,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-047-8a310498-8344-4113-a33e-71c574c6da5e.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.26613478500997,
+  "ch2Db": -25.3640626066465,
+  "sepDb": 57.90207217836347,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-048-99ea857c-92b9-4c60-8e02-fb2e665e51ed.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.04981434819241,
+  "ch2Db": -23.427958872073276,
+  "sepDb": 59.62185547611914,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-049-5959e4c4-9a43-4b3b-b4aa-fd908d389fc1.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.1347903319706,
+  "ch2Db": -23.418986389901534,
+  "sepDb": 59.71580394206907,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-elevenlabs-050-3386107b-4ba9-4060-a382-5ecf25f4d411.mp3",
+  "provider": "elevenlabs",
+  "ch1Db": -83.12626598629012,
+  "ch2Db": -23.44009345785215,
+  "sepDb": 59.68617252843797,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-001-9d5ef7a7-4bb0-4075-8475-98da328e96ec.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.835846229942,
+  "ch2Db": -25.345350654938823,
+  "sepDb": 55.49049557500318,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-001-0d4de7b7-088a-443a-86e4-cf9dd8ea605d.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.33473557101606,
+  "sepDb": 174.66526442898393,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-001-3738865a-0e50-4523-941f-033080478959.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.370405512871056,
+  "sepDb": 174.62959448712894,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-002-cfc59186-d3f3-4ba8-9a46-aa4e20e9fc26.mp3",
+  "provider": "retell",
+  "ch1Db": -106.21530399466616,
+  "ch2Db": -23.444944343510222,
+  "sepDb": 82.77035965115593,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-003-1a02c786-99d9-47af-8119-e3ec9932e224.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.387825256554017,
+  "sepDb": 174.612174743446,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-004-8e954d02-62a2-44b2-bca6-cd8d2d7b1f2d.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.379887933418917,
+  "sepDb": 174.62011206658107,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-005-a028a8d8-1045-4e5c-b124-ff46a292e90b.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.429297621834454,
+  "sepDb": 176.57070237816555,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-006-39d7a7e3-d7bc-4167-9398-3f8d83606675.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.34054028954006,
+  "sepDb": 174.65945971045994,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-007-a1c1ee67-5690-4c8c-a332-ae19c00ff518.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.150018507572653,
+  "sepDb": 174.84998149242733,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-008-8b2e1a79-4e0c-4aff-8a1f-bbf0fbbfe178.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.35999129591446,
+  "sepDb": 176.64000870408555,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-009-a64f7e5e-b8ec-48d5-b1c8-2a47e2def6f7.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.384406891214542,
+  "sepDb": 174.61559310878545,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-011-a0a89a97-3069-4c9e-a306-42c3e442cbab.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.103887897314777,
+  "sepDb": 174.8961121026852,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-013-8f1c7a0c-b2a3-445b-8fb4-2df0f83e0620.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.408599812959565,
+  "sepDb": 176.59140018704045,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-014-c7c55190-1395-4cc9-b396-1d535ee99f90.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.159523816037964,
+  "sepDb": 174.84047618396204,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-015-324d7197-14c6-4f1a-9a87-4f741c3e489f.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.459074766584603,
+  "sepDb": 176.5409252334154,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-016-69f8355b-3209-4f98-97d2-eda06634f822.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.35982647884779,
+  "sepDb": 174.6401735211522,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-017-2ddd498d-17bc-4bbb-a053-f3b07491455c.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.39003664771097,
+  "sepDb": 176.60996335228901,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-018-31aecf3b-991b-45a1-86f5-c926e7b4bdc1.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.444389951114854,
+  "sepDb": 176.55561004888514,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-019-8e78d771-1e17-4468-8f18-8fe957e9f199.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.379887933418917,
+  "sepDb": 174.62011206658107,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-020-c3cbcfe7-f83d-4371-b615-6a1b0012f309.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.48388541609754,
+  "sepDb": 176.51611458390246,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-021-19067fea-f014-48d0-b04c-c67843c902e5.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.12088726390143,
+  "sepDb": 174.87911273609856,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-022-af2c29db-d5b8-45c6-9808-4b579c9ed114.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.34054028954006,
+  "sepDb": 174.65945971045994,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-023-33eddf72-2c54-4f7c-8831-8d4e517270e3.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.427818917225416,
+  "sepDb": 176.5721810827746,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-024-1fcdee0a-e57a-404e-9ad6-23245381dd63.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.358095275129877,
+  "sepDb": 174.64190472487013,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-025-e319aef7-934e-4d33-837f-110229a1cce5.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.444389951114854,
+  "sepDb": 176.55561004888514,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-026-12717cd5-eaa0-48ca-8c92-21a1c9df3190.mp3",
+  "provider": "retell",
+  "ch1Db": -99.74948464590285,
+  "ch2Db": -23.408599812959565,
+  "sepDb": 76.34088483294329,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-027-05905d46-e5c1-4d88-ad83-dc5df3ba79c4.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.33473557101606,
+  "sepDb": 174.66526442898393,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-028-ed919435-163c-4fa2-9834-390907f9090f.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.35999129591446,
+  "sepDb": 176.64000870408555,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-029-85827322-ead4-4463-9655-7281e85cc316.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.37040597764079,
+  "sepDb": 174.6295940223592,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-030-21bd794a-2c47-4d56-ab4a-0c5edb723171.mp3",
+  "provider": "retell",
+  "ch1Db": -100.03890218703646,
+  "ch2Db": -23.409968766662224,
+  "sepDb": 76.62893342037424,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-031-52573fd3-2bcb-4e64-a87c-2c9eef771494.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.438654332721306,
+  "sepDb": 176.5613456672787,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-032-bcafa6d2-abe5-4808-be53-5523cd1eeb0a.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.119772784482596,
+  "sepDb": 174.8802272155174,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-033-1ddb7c40-b4ba-40e5-ad9f-91a4c85ae8a8.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.382775061558732,
+  "sepDb": 174.61722493844127,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-034-d54d0af8-62f5-4c66-9e85-56e67a5979db.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.32454267949284,
+  "sepDb": 174.67545732050715,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-035-2cb14976-bc62-437f-9bb5-6a50914b1bcd.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -24.968878140144252,
+  "sepDb": 175.03112185985574,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-036-f313040e-74bd-4580-8e2e-d3ec294df6a6.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.381608199851236,
+  "sepDb": 174.61839180014877,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-037-1d5a339d-5460-4e23-8cdf-f43748148109.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.447900330746574,
+  "sepDb": 176.55209966925344,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-038-b5796df3-6747-40eb-9022-d56c4fd8d6e0.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.292697544479715,
+  "sepDb": 174.70730245552028,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-039-d6e8368a-e44a-4b0b-a971-04d8755ead5a.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.32454267949284,
+  "sepDb": 174.67545732050715,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-040-93c5d50b-5c7c-40ed-9f30-e229368cf782.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.379887933418917,
+  "sepDb": 174.62011206658107,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-041-310bce84-7cc4-4a49-bd62-cd563957650c.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.382775061558732,
+  "sepDb": 174.61722493844127,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-042-c31f07bb-e663-41b0-9e11-a614e2442b1d.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.38520837227132,
+  "sepDb": 174.61479162772866,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-043-ffe6fc45-0c40-4556-855b-17e3e5a1edaf.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.346544023908507,
+  "sepDb": 174.6534559760915,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-044-43d67599-7827-4c19-a4fe-458ff9475210.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.464868677854987,
+  "sepDb": 176.53513132214502,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-045-8d6b36d7-8fab-4567-9212-dd5796d4e110.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.38520837227132,
+  "sepDb": 174.61479162772866,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-046-144cd3c5-2caa-406d-b98e-82c50ff45fba.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.444389951114854,
+  "sepDb": 176.55561004888514,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-047-d90c9e95-4547-40dd-9d21-d95d73e212cd.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -23.408599812959565,
+  "sepDb": 176.59140018704045,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-048-67dbc2fd-1abf-408f-ad0a-17f9c796ec2c.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.322468587991835,
+  "sepDb": 174.67753141200816,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-049-69ed3f7d-aea6-4477-b702-8910c954b18f.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.326051977881512,
+  "sepDb": 174.67394802211848,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-retell-050-0449e92b-495c-43d2-b58a-8e753617dd3e.mp3",
+  "provider": "retell",
+  "ch1Db": -200,
+  "ch2Db": -25.33473557101606,
+  "sepDb": 174.66526442898393,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-001-31e744aa-6ed6-495b-9ff8-0826ea790929.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.43222304945643,
+  "ch2Db": -25.185984112757694,
+  "sepDb": 68.24623893669873,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-001-f4f74cfd-4ba5-4f04-a0c1-e667857b857f.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31929865583417,
+  "ch2Db": -25.18618091885227,
+  "sepDb": 68.1331177369819,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-002-1a8a3003-5d1b-4e69-bee4-93653f7999d5.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.33815897698952,
+  "ch2Db": -23.2571949370811,
+  "sepDb": 70.08096403990842,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-002-a935bc3b-f6e9-4dc2-8eee-ef5a1a654e8d.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32219491790818,
+  "ch2Db": -24.967899227400686,
+  "sepDb": 68.35429569050748,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-003-41520500-bed6-4ca2-bafd-512df4903af0.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -23.257024040615697,
+  "sepDb": 70.0564878790938,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-003-ff748f8b-b98e-4e63-aaa0-490625be392b.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.34106784837692,
+  "ch2Db": -23.25529661883966,
+  "sepDb": 70.08577122953726,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-004-5e94f745-1f7e-4e5b-8dbb-ae751a059162.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.43222304945643,
+  "ch2Db": -25.185984112757694,
+  "sepDb": 68.24623893669873,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-005-b84c7d25-f2e0-40b9-9b88-71a30c11581a.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.24751280956293,
+  "ch2Db": -23.256412623836532,
+  "sepDb": 69.9911001857264,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-006-38ecfc61-4ab7-46d4-9e5f-aceae14a3a82.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31929865583417,
+  "ch2Db": -25.18618091885227,
+  "sepDb": 68.1331177369819,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-007-6c580ed6-b491-4f03-a623-3a3e50049821.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.29619783105343,
+  "ch2Db": -23.258675469992905,
+  "sepDb": 70.03752236106052,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-008-febe5e73-bbb0-49c8-8851-e25a305e50b8.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32219491790818,
+  "ch2Db": -25.186273859532925,
+  "sepDb": 68.13592105837526,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-009-a9caa6dc-7087-408a-82d6-614105063712.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -25.186847741743456,
+  "sepDb": 68.12666417796603,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-010-a70efdc0-7601-4135-9447-04e58740b68d.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.38567125987394,
+  "ch2Db": -23.25599547909329,
+  "sepDb": 70.12967578078066,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-011-80b0507a-9a05-476d-bdf4-065692c39108.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32219491790818,
+  "ch2Db": -25.186273859532925,
+  "sepDb": 68.13592105837526,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-012-8cc28d0f-0e05-45a6-a12e-622ab04b4ba9.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31206643964322,
+  "ch2Db": -24.967912203589474,
+  "sepDb": 68.34415423605374,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-013-a8558fcd-4246-4a96-8386-1e0e555baf3b.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32002254029605,
+  "ch2Db": -25.186036779241977,
+  "sepDb": 68.13398576105408,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-014-3d99a4bb-aca6-4989-aa8c-2b49951305f2.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.33016961224631,
+  "ch2Db": -23.255923256560152,
+  "sepDb": 70.07424635568616,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-015-30f7ea7a-798e-4036-aa12-f600f086d444.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.29835832101708,
+  "ch2Db": -25.186157868230914,
+  "sepDb": 68.11220045278617,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-016-9eda5b06-8f2a-40e8-ab00-59ced2b2ee83.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.33597860133379,
+  "ch2Db": -24.967709892620157,
+  "sepDb": 68.36826870871363,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-017-37303e2b-116d-4326-b7b3-d47ef69269ff.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.28182196615911,
+  "ch2Db": -23.25660753439916,
+  "sepDb": 70.02521443175996,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-018-f5d6202a-e54b-41ce-92d7-3a8fe47f3876.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.36879973610718,
+  "ch2Db": -23.255757178822858,
+  "sepDb": 70.11304255728432,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-019-e1751170-d4a1-49b1-8e78-871017bc2e27.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.33234707271762,
+  "ch2Db": -25.186634970730232,
+  "sepDb": 68.14571210198739,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-020-49fc5acb-e2b7-4df3-a25b-a62d6b3598da.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -25.186847741743456,
+  "sepDb": 68.12666417796603,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-021-026b6eb6-4c18-485e-8cd7-1139fd9f81ed.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.24751280956293,
+  "ch2Db": -23.256412623836532,
+  "sepDb": 69.9911001857264,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-023-ca1495af-c277-42e2-a8f4-72cebdcf37ee.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.28182196615911,
+  "ch2Db": -23.25660753439916,
+  "sepDb": 70.02521443175996,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-024-7009b79d-8a01-499d-9c33-ab0b596e1b89.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -25.186847741743456,
+  "sepDb": 68.12666417796603,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-025-03fd0ed8-138b-48fc-ae89-db8c3653bdfd.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.39302719797914,
+  "ch2Db": -25.18580599727812,
+  "sepDb": 68.20722120070101,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-026-3e3eae77-9b0e-45f6-a614-5f8df675d573.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.37319468823029,
+  "ch2Db": -23.255686278358127,
+  "sepDb": 70.11750840987216,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-027-4afb299d-f479-4478-be97-6e5060cf75dd.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.33234707271762,
+  "ch2Db": -25.186634970730232,
+  "sepDb": 68.14571210198739,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-028-6adf3b11-3c71-4cd4-949f-14da8669e1e6.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -23.257024040615697,
+  "sepDb": 70.0564878790938,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-029-dca71967-1dd0-4068-a211-1107079f665c.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.34179537075386,
+  "ch2Db": -23.255894209380482,
+  "sepDb": 70.08590116137337,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-030-c0aae995-e27e-4ea9-9b83-974246c7c934.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.38493635085806,
+  "ch2Db": -23.25599611561566,
+  "sepDb": 70.1289402352424,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-031-574d18dc-453c-4138-b3e6-b1c5e1095d91.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -25.186847741743456,
+  "sepDb": 68.12666417796603,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-032-202560a6-c626-4d66-bc15-893ee32ac127.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.38493635085806,
+  "ch2Db": -23.25599611561566,
+  "sepDb": 70.1289402352424,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-033-40726b94-6e06-4f69-871a-da85fdcb83ec.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -25.186847741743456,
+  "sepDb": 68.12666417796603,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-034-c200b7a5-51c6-4af8-8afe-bb1d93c1c4de.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.38493635085806,
+  "ch2Db": -23.25599611561566,
+  "sepDb": 70.1289402352424,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-035-0c81b144-236e-4341-b938-8a0c511bf89d.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.24751280956293,
+  "ch2Db": -23.256412623836532,
+  "sepDb": 69.9911001857264,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-036-1bea44a5-bda8-462b-a78e-2075c55dad64.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31929865583417,
+  "ch2Db": -25.18618091885227,
+  "sepDb": 68.1331177369819,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-037-a254d66e-74ec-4b98-8112-1866ea11f45b.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.24751280956293,
+  "ch2Db": -23.256412623836532,
+  "sepDb": 69.9911001857264,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-038-33d00670-cd3b-4e9a-95d4-f3ba8baa4c49.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32002254029605,
+  "ch2Db": -23.257167489648264,
+  "sepDb": 70.06285505064778,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-039-2b67ced8-a077-431a-b090-87098229b78e.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.424058919391,
+  "ch2Db": -24.96690657607765,
+  "sepDb": 68.45715234331335,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-041-083d5418-e7d1-4103-925b-58a3ae15b156.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.29691787496108,
+  "ch2Db": -23.25669840242448,
+  "sepDb": 70.0402194725366,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-042-460f4dad-9029-4e70-ab91-7b88032f36bb.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.42480047916725,
+  "ch2Db": -24.96690594257544,
+  "sepDb": 68.45789453659181,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-043-22b76457-2743-4d7c-90d4-8acabc004cd9.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.34106784837692,
+  "ch2Db": -23.25529661883966,
+  "sepDb": 70.08577122953726,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-044-0871d5a3-7500-4adb-8e41-e7d964a11bcf.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.3135119197095,
+  "ch2Db": -23.257024040615697,
+  "sepDb": 70.0564878790938,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-045-97b7b6da-40c9-4d53-90e2-c18bad82c4ce.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.37319468823029,
+  "ch2Db": -23.255686278358127,
+  "sepDb": 70.11750840987216,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-046-5e10be5b-a976-4d63-8853-d9209cf1eae2.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31929865583417,
+  "ch2Db": -25.18618091885227,
+  "sepDb": 68.1331177369819,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-047-4d097883-674b-42f2-b19a-cc6d52e95a42.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.43222304945643,
+  "ch2Db": -25.185984112757694,
+  "sepDb": 68.24623893669873,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-048-b4efa39c-e05d-475d-972c-f1cd2074be95.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.32944403462888,
+  "ch2Db": -24.967709892620157,
+  "sepDb": 68.36173414200871,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-049-d0c3c907-aebd-464a-a2c6-acbed73f93d9.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.34106784837692,
+  "ch2Db": -23.25529661883966,
+  "sepDb": 70.08577122953726,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-telnyx-050-13fa93e5-b1d6-451e-ae41-bcabf19d47ed.mp3",
+  "provider": "telnyx",
+  "ch1Db": -93.31929865583417,
+  "ch2Db": -25.185958569850722,
+  "sepDb": 68.13334008598345,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-001-1f7e4d87-341d-443b-9bce-be76d1d1a8ca.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.370405512871056,
+  "sepDb": 174.62959448712894,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-001-83aa5dea-4c5c-49f5-b4d8-8ab6b9c35893.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.511084765341867,
+  "sepDb": 176.48891523465812,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-003-e04a9191-1286-4227-9d5b-541b4c70e4d7.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.349048223520512,
+  "sepDb": 174.65095177647947,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-004-569f6f9e-6aba-4130-a6f3-c41e76f58d19.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.430668108022452,
+  "sepDb": 176.56933189197755,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-005-022e5c80-0b4d-4406-88eb-bf77d2e14677.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.384406891214542,
+  "sepDb": 174.61559310878545,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-006-8cd92aac-c059-46f7-b0ea-268ace1062ff.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.370405512871056,
+  "sepDb": 174.62959448712894,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-007-283de7b9-4d7c-4100-8f2d-5624c8fe3448.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.380236954054997,
+  "sepDb": 174.619763045945,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-008-95057e21-95b7-486c-8298-d8d39d35c9bf.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.371123441060305,
+  "sepDb": 174.62887655893968,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-009-e16a175a-dcd6-4bb3-81bc-41eb1948d6a1.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.48388541609754,
+  "sepDb": 176.51611458390246,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-010-bb21be38-e17a-44f1-a4e0-29ee0af90d00.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.292697544479715,
+  "sepDb": 174.70730245552028,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-012-76e2fd04-c741-4112-9dd8-326d757588cd.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.35999136715168,
+  "sepDb": 176.64000863284832,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-013-db30f9da-3f1b-4bb1-acb9-e7e08d208868.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.359806854134646,
+  "sepDb": 174.64019314586534,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-014-3d007e07-500f-4a1c-95bc-8a38e2edda24.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.32454267949284,
+  "sepDb": 174.67545732050715,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-015-b26a1984-6ffd-4df5-b42a-e789a0d5f307.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.350160347476894,
+  "sepDb": 174.6498396525231,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-016-eaac4e13-ac21-4d6f-b737-3db28c94d087.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.292697544479715,
+  "sepDb": 174.70730245552028,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-017-83894aa1-66fd-4d6e-8c39-824685b0f4e3.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.38520837227132,
+  "sepDb": 174.61479162772866,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-038-ff9c6c1e-b82a-4327-8eda-50a7f3bf76e9.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.35384846366656,
+  "sepDb": 174.64615153633343,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-039-425c361f-9682-46bf-8372-787b69db2722.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.427007370565637,
+  "sepDb": 176.57299262943437,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-001-43b3fe95-e547-412e-8df5-6151eaf7c321.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.26260950393457,
+  "ch2Db": -25.296367131664944,
+  "sepDb": 55.966242372269626,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-001-f35cfe33-45dd-48da-ac3b-55c44e2e5ae9.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.64542999516374,
+  "ch2Db": -23.469123132535344,
+  "sepDb": 57.176306862628394,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-002-570a3a68-d5f1-4ad1-a7c5-7ea9854e8df3.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.70805834568615,
+  "ch2Db": -23.397509035307458,
+  "sepDb": 57.3105493103787,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-003-b271840f-e47d-46e6-a008-c1e16502d3c4.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.83862553161411,
+  "ch2Db": -25.40214193105208,
+  "sepDb": 55.436483600562035,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-004-2e8cf006-dc17-4c52-aae2-88e155a26e95.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.12943845109818,
+  "ch2Db": -23.454716031574122,
+  "sepDb": 57.67472241952406,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-005-612895e1-c938-423f-8212-9a1053bd3f2b.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.93783359152383,
+  "ch2Db": -25.39156484125524,
+  "sepDb": 55.54626875026859,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-006-b1aa6493-fb8c-45c2-8985-b19d26baddfd.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.95812658757417,
+  "ch2Db": -25.32186111433184,
+  "sepDb": 55.63626547324233,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-007-857b74cc-29f6-4d1f-8b27-e25d1cd9b9d3.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.9375826195327,
+  "ch2Db": -25.3663764976821,
+  "sepDb": 55.57120612185061,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-008-720d7425-2678-4b22-8e00-bd70495178e1.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.65094748005438,
+  "ch2Db": -25.264394028647406,
+  "sepDb": 55.38655345140698,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-009-b518ba7d-ea52-4f6b-aead-cdc4f79829b5.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.8706336225932,
+  "ch2Db": -25.38851967823705,
+  "sepDb": 55.48211394435616,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-011-816c8c02-4b4a-44a4-82c1-9c623b39032b.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.10589537995807,
+  "ch2Db": -23.355446983542286,
+  "sepDb": 57.750448396415784,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-013-f7a858af-4456-4cc8-b7bd-8f0fdf33ddbc.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.96157407006541,
+  "ch2Db": -25.341327768198852,
+  "sepDb": 55.62024630186656,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-014-1f069514-f5e7-4f77-910a-2e094c91be1e.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.64703364753846,
+  "ch2Db": -23.420818278975013,
+  "sepDb": 57.22621536856345,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-015-71880afc-4300-40a2-9b5c-4b3498cd9db8.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.67080573099435,
+  "ch2Db": -23.42899057958764,
+  "sepDb": 57.241815151406705,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-016-968debf5-5bf2-4c7a-bb2b-070535c6125a.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.07349327543116,
+  "ch2Db": -25.356994730847127,
+  "sepDb": 55.716498544584034,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-017-52b33d55-c4e2-4f36-9bf6-b5b5c07cda94.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.23049778069938,
+  "ch2Db": -25.36319046653453,
+  "sepDb": 55.86730731416485,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-018-b3ba6665-7ee9-4142-94a3-00167eae59d6.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.45065640929829,
+  "ch2Db": -23.39361602717235,
+  "sepDb": 57.05704038212594,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-019-ab98125e-267c-4565-a3be-927a9e4fd0b0.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.94218607869747,
+  "ch2Db": -23.452872104452943,
+  "sepDb": 57.48931397424453,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-020-74e2df9f-92ad-49f1-8ed2-380ddc0a4634.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.80324086644289,
+  "ch2Db": -25.309506768901077,
+  "sepDb": 55.49373409754182,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-021-df43e705-62f4-4935-b819-6056a8a61160.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.92413501974951,
+  "ch2Db": -23.35745674775382,
+  "sepDb": 57.5666782719957,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-022-68161415-57e7-450f-85d8-61542719c77f.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.7648448134986,
+  "ch2Db": -25.3704941594277,
+  "sepDb": 55.3943506540709,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-023-d88de8a7-048f-4827-b1a0-7969d8f889e9.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.77208620788818,
+  "ch2Db": -23.464352488490903,
+  "sepDb": 57.30773371939728,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-024-cb37324c-acf3-4755-a6b7-bf16c3b3c47a.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.78547431360862,
+  "ch2Db": -25.345880015775176,
+  "sepDb": 55.43959429783344,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-025-702590d5-a4a8-45c0-a37b-c3e69752555a.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.36788105989453,
+  "ch2Db": -23.477644654908588,
+  "sepDb": 56.89023640498594,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-026-7a8e26c5-2a29-414f-acaa-7c189b8f31ea.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.66243535848388,
+  "ch2Db": -23.438051722205408,
+  "sepDb": 57.22438363627847,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-027-cb2bb69c-ea4b-4383-b209-0151ae3ba2ea.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.12489429593559,
+  "ch2Db": -25.325094212680884,
+  "sepDb": 55.79980008325471,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-028-2b34b76b-9c0e-4f97-9a11-afa304077d4c.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.42917233364219,
+  "ch2Db": -25.352004633376417,
+  "sepDb": 55.07716770026577,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-029-835bfb77-eeef-41d7-a9a7-c4d86b63cf8a.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.919883890637,
+  "ch2Db": -25.31627121974928,
+  "sepDb": 55.60361267088771,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-030-89eb2b98-8d82-4633-add8-a60d8a48332a.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.80466046746852,
+  "ch2Db": -25.327958876025754,
+  "sepDb": 55.47670159144277,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-031-52227b4a-2de9-49b6-b9a0-4e5077910e84.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.9947166516725,
+  "ch2Db": -25.34152373005249,
+  "sepDb": 55.65319292162002,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-032-d593284b-5d6e-4d81-a2df-9b647039ad63.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.97585558177991,
+  "ch2Db": -23.40859840993524,
+  "sepDb": 57.56725717184467,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-033-d3c7e872-170c-4b97-8d18-f3a5f855cfff.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.88156207687207,
+  "ch2Db": -25.23008369599328,
+  "sepDb": 55.65147838087879,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-034-5948445e-a035-4550-b3bd-6ccdc6427d8b.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.65290571977727,
+  "ch2Db": -25.37679808506676,
+  "sepDb": 55.276107634710506,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-035-74a34538-120d-4780-90f6-2e230b85439e.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.0524834989257,
+  "ch2Db": -23.493829792382286,
+  "sepDb": 57.55865370654341,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-036-f2176344-3ee5-473a-9c5d-af5ead8ee14a.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.83658175436693,
+  "ch2Db": -23.381037202854213,
+  "sepDb": 57.455544551512716,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-037-efad3c3f-8446-46dd-a845-041c15198477.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.74847555075775,
+  "ch2Db": -23.43866624755629,
+  "sepDb": 57.309809303201455,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-038-aa0e3304-8479-4976-af1d-ad513ef0cb81.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.67789188412308,
+  "ch2Db": -25.38025909513163,
+  "sepDb": 55.29763278899145,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-039-a9eadd9c-61de-4da6-9309-11410757b307.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.64132577861727,
+  "ch2Db": -25.331076658068753,
+  "sepDb": 55.31024912054852,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-040-138be399-5e8e-46fe-8ff6-a244655dd077.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.99035356427405,
+  "ch2Db": -23.50765243567762,
+  "sepDb": 57.482701128596425,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-041-538b1894-97e1-44ee-8709-52dfdf32aa6e.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.02188312945727,
+  "ch2Db": -25.37466948733997,
+  "sepDb": 55.64721364211729,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-042-e7577ddc-d4b0-416b-9a1d-6350e28b66ae.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.56303752032272,
+  "ch2Db": -23.39701669702314,
+  "sepDb": 57.16602082329958,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-043-c5813317-a629-4b5d-88ab-eafd5c072128.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.70952654210939,
+  "ch2Db": -25.3521754427491,
+  "sepDb": 55.35735109936029,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-044-16073b6f-4917-490a-9cc9-2bed93adae84.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.93511550048038,
+  "ch2Db": -25.254387720101576,
+  "sepDb": 55.6807277803788,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-045-f40ddaa8-f2d6-40ce-85db-b6db33270aa0.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.01655548650132,
+  "ch2Db": -25.344459340241873,
+  "sepDb": 55.67209614625945,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-046-1f588b2e-de54-4608-bbdb-5a92a91c2329.mp3",
+  "provider": "livekit",
+  "ch1Db": -81.0430878713472,
+  "ch2Db": -23.3819118327552,
+  "sepDb": 57.661176038592,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-047-50c33eee-72e2-4b12-b501-d1e3087aa247.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.73192839058368,
+  "ch2Db": -25.351406521496756,
+  "sepDb": 55.38052186908692,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-048-f03b8eb9-f491-436d-9070-edab9b50ae5d.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.49258669856874,
+  "ch2Db": -23.374241976467825,
+  "sepDb": 57.118344722100915,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-049-8e4d6fde-68f7-45b2-abf4-5db8b955ce38.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.61099693121398,
+  "ch2Db": -25.123441990447404,
+  "sepDb": 55.48755494076657,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-livekit-050-9b5c7122-a49f-458a-9d1f-be899ab697d2.mp3",
+  "provider": "livekit",
+  "ch1Db": -80.5197409619814,
+  "ch2Db": -23.43727443211115,
+  "sepDb": 57.082466529870246,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-001-b5755fa9-6e63-4d4d-8066-22b0465a235f.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.346544023908507,
+  "sepDb": 174.6534559760915,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-001-fd80576c-117a-4698-b4cd-a79a73f2a02f.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.349048223520512,
+  "sepDb": 174.65095177647947,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-002-cdf0083a-296d-4027-b1a5-68056f88c2ee.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.10213720384808,
+  "sepDb": 174.8978627961519,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-003-c8a56183-694b-4b2b-9fb8-934051b5cce5.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.322465902310967,
+  "sepDb": 174.67753409768903,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-003-fb94cf27-c252-44f4-8103-50c0764b1212.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.32454427554599,
+  "sepDb": 174.67545572445403,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-004-933d546e-e3fd-40d7-803d-8e42a655dee5.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.1779770309038,
+  "sepDb": 174.8220229690962,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-004-b6528905-2861-422e-a5c9-1f4d37de1a58.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.408599812959565,
+  "sepDb": 176.59140018704045,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-005-13fc3a5b-9bff-4431-a8ae-adb733deb6dc.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.409968766662224,
+  "sepDb": 176.59003123333778,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-005-68d2560f-c2c5-4879-b556-e3d3028b08af.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.35999129591446,
+  "sepDb": 176.64000870408555,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-006-cf4e6f99-1933-4eb5-8ef6-689d7cc6656d.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.447900330746574,
+  "sepDb": 176.55209966925344,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-006-de52d231-7923-4de3-a4cc-2654ebc72491.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.379887933418917,
+  "sepDb": 174.62011206658107,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-007-c766a466-3acc-427f-8f13-5e2ddca6a1fc.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.292697544479715,
+  "sepDb": 174.70730245552028,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-008-d17f7166-4080-4c01-9f87-e9bccb5cb094.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.346544023908507,
+  "sepDb": 174.6534559760915,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-009-90506fc3-d9c3-430f-a4e7-dcb5d8790521.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.435986209372274,
+  "sepDb": 176.5640137906277,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-010-76e0da0e-f2fc-4d00-ab46-a9232795081a.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.43931591091911,
+  "sepDb": 176.5606840890809,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-012-9ac62fea-939a-4f82-9255-82332f585f5a.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.430668108022452,
+  "sepDb": 176.56933189197755,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-013-78863d85-a6e5-42af-8dd5-fda71434d256.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.33473557101606,
+  "sepDb": 174.66526442898393,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-014-e7f41628-cb5d-4556-84ca-df98b04d0c1d.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.427818917225416,
+  "sepDb": 176.5721810827746,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-015-01a9bbbf-b017-41f4-a24b-d7637619ee95.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.382775061558732,
+  "sepDb": 174.61722493844127,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-016-3dc32053-782c-4a90-aea7-e9cd07b018c8.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.429297621834454,
+  "sepDb": 176.57070237816555,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-017-8a59bc47-1c9a-4c7d-965d-ddd64f372f30.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.427008624620097,
+  "sepDb": 176.5729913753799,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-020-f7c3e602-8ce4-4226-84e9-d6bc35954526.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.10381166819823,
+  "sepDb": 174.89618833180177,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-021-e13ed2c8-442e-45db-822e-34899b608612.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.409968766662224,
+  "sepDb": 176.59003123333778,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-022-e7006e02-45ca-43bc-abb0-26a2df211d6d.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.464868677854987,
+  "sepDb": 176.53513132214502,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-023-107c5127-7491-4a1f-979d-cfd7a52abdb5.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.408597650829,
+  "sepDb": 176.591402349171,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-024-97ad38bd-faf4-40d5-a678-5e9cef9c03c5.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.444944343510222,
+  "sepDb": 176.55505565648977,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-025-b4f24428-033f-470d-aa85-aa0b5799f98c.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.33473557101606,
+  "sepDb": 174.66526442898393,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-026-1d6e6155-61c7-47b4-853d-eb56fb59f0fd.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.379887933418917,
+  "sepDb": 174.62011206658107,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-027-81460842-07bd-45bc-a001-d46d4dfa7b38.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.349048223520512,
+  "sepDb": 174.65095177647947,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-028-a0a84e9c-fccf-4a48-8361-d93726710144.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -25.350160347476894,
+  "sepDb": 174.6498396525231,
+  "poor": false
+ },
+ {
+  "file": "appointment-reschedule-vapi-029-653d871e-588a-4018-b02c-91e348f691d9.mp3",
+  "provider": "vapi",
+  "ch1Db": -200,
+  "ch2Db": -23.48388541609754,
+  "sepDb": 176.51611458390246,
+  "poor": false
+ }
+]

@@ -1,0 +1,461 @@
+[
+ {
+  "runId": "73542904",
+  "ourFR": 1230,
+  "theirTTFaudio": 1038,
+  "turnPadding": 640,
+  "asr": 57,
+  "llmTTFB": 188,
+  "ttsTTFB": 97
+ },
+ {
+  "runId": "82bd828c",
+  "ourFR": 1350,
+  "theirTTFaudio": 1123,
+  "turnPadding": 288,
+  "asr": 70,
+  "llmTTFB": 431,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "5a43bf28",
+  "ourFR": 1670,
+  "theirTTFaudio": 1427,
+  "turnPadding": 768,
+  "asr": 77,
+  "llmTTFB": 276,
+  "ttsTTFB": 134
+ },
+ {
+  "runId": "3a93416f",
+  "ourFR": 1050,
+  "theirTTFaudio": 759,
+  "turnPadding": 224,
+  "asr": 65,
+  "llmTTFB": 305,
+  "ttsTTFB": 106
+ },
+ {
+  "runId": "c0145606",
+  "ourFR": 1550,
+  "theirTTFaudio": 1263,
+  "turnPadding": 736,
+  "asr": 73,
+  "llmTTFB": 153,
+  "ttsTTFB": 109
+ },
+ {
+  "runId": "b27689e8",
+  "ourFR": 1710,
+  "theirTTFaudio": 1513,
+  "turnPadding": 640,
+  "asr": 72,
+  "llmTTFB": 423,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "fceacd32",
+  "ourFR": 1170,
+  "theirTTFaudio": 994,
+  "turnPadding": 640,
+  "asr": 54,
+  "llmTTFB": 155,
+  "ttsTTFB": 93
+ },
+ {
+  "runId": "8ce54b1a",
+  "ourFR": 1930,
+  "theirTTFaudio": 1712,
+  "turnPadding": 736,
+  "asr": 80,
+  "llmTTFB": 219,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "8d7b2adb",
+  "ourFR": 870,
+  "theirTTFaudio": 708,
+  "turnPadding": 288,
+  "asr": 88,
+  "llmTTFB": 179,
+  "ttsTTFB": 100
+ },
+ {
+  "runId": "efed045c",
+  "ourFR": 1410,
+  "theirTTFaudio": 1193,
+  "turnPadding": 224,
+  "asr": 39,
+  "llmTTFB": 184,
+  "ttsTTFB": 103
+ },
+ {
+  "runId": "60acd087",
+  "ourFR": 1070,
+  "theirTTFaudio": 877,
+  "turnPadding": 288,
+  "asr": 76,
+  "llmTTFB": 258,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "e133389a",
+  "ourFR": 1750,
+  "theirTTFaudio": 1651,
+  "turnPadding": 192,
+  "asr": 64,
+  "llmTTFB": 754,
+  "ttsTTFB": 97
+ },
+ {
+  "runId": "f7861291",
+  "ourFR": 750,
+  "theirTTFaudio": 525,
+  "turnPadding": 160,
+  "asr": 69,
+  "llmTTFB": 140,
+  "ttsTTFB": 109
+ },
+ {
+  "runId": "f643282a",
+  "ourFR": 1730,
+  "theirTTFaudio": 1399,
+  "turnPadding": 800,
+  "asr": 49,
+  "llmTTFB": 409,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "9e1ccb03",
+  "ourFR": 1230,
+  "theirTTFaudio": 1061,
+  "turnPadding": 160,
+  "asr": 107,
+  "llmTTFB": 367,
+  "ttsTTFB": 100
+ },
+ {
+  "runId": "afdb5567",
+  "ourFR": 1510,
+  "theirTTFaudio": 1245,
+  "turnPadding": 256,
+  "asr": 49,
+  "llmTTFB": 316,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "f0f82d30",
+  "ourFR": 890,
+  "theirTTFaudio": 655,
+  "turnPadding": 288,
+  "asr": 66,
+  "llmTTFB": 157,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "92302a1d",
+  "ourFR": 970,
+  "theirTTFaudio": 689,
+  "turnPadding": 384,
+  "asr": 40,
+  "llmTTFB": 130,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "d0332c3c",
+  "ourFR": 2650,
+  "theirTTFaudio": 1055,
+  "turnPadding": 192,
+  "asr": 67,
+  "llmTTFB": 405,
+  "ttsTTFB": 104
+ },
+ {
+  "runId": "31dce93c",
+  "ourFR": 930,
+  "theirTTFaudio": 783,
+  "turnPadding": 224,
+  "asr": 95,
+  "llmTTFB": 191,
+  "ttsTTFB": 104
+ },
+ {
+  "runId": "79ecef14",
+  "ourFR": 1830,
+  "theirTTFaudio": 1509,
+  "turnPadding": 640,
+  "asr": 78,
+  "llmTTFB": 520,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "86c814fe",
+  "ourFR": 730,
+  "theirTTFaudio": 537,
+  "turnPadding": 192,
+  "asr": 56,
+  "llmTTFB": 157,
+  "ttsTTFB": 93
+ },
+ {
+  "runId": "cc0d72f5",
+  "ourFR": 710,
+  "theirTTFaudio": 558,
+  "turnPadding": 160,
+  "asr": 51,
+  "llmTTFB": 191,
+  "ttsTTFB": 94
+ },
+ {
+  "runId": "be1c0974",
+  "ourFR": 1390,
+  "theirTTFaudio": 1170,
+  "turnPadding": 160,
+  "asr": 76,
+  "llmTTFB": 362,
+  "ttsTTFB": 106
+ },
+ {
+  "runId": "7f37eb06",
+  "ourFR": 1050,
+  "theirTTFaudio": 833,
+  "turnPadding": 192,
+  "asr": 67,
+  "llmTTFB": 418,
+  "ttsTTFB": 103
+ },
+ {
+  "runId": "b54dbb3e",
+  "ourFR": 1770,
+  "theirTTFaudio": 1583,
+  "turnPadding": 672,
+  "asr": 61,
+  "llmTTFB": 171,
+  "ttsTTFB": 100
+ },
+ {
+  "runId": "7f434e9c",
+  "ourFR": 870,
+  "theirTTFaudio": 697,
+  "turnPadding": 224,
+  "asr": 67,
+  "llmTTFB": 252,
+  "ttsTTFB": 98
+ },
+ {
+  "runId": "13244388",
+  "ourFR": 1450,
+  "theirTTFaudio": 1248,
+  "turnPadding": 608,
+  "asr": 39,
+  "llmTTFB": 341,
+  "ttsTTFB": 91
+ },
+ {
+  "runId": "59ff2364",
+  "ourFR": 850,
+  "theirTTFaudio": 661,
+  "turnPadding": 288,
+  "asr": 43,
+  "llmTTFB": 177,
+  "ttsTTFB": 99
+ },
+ {
+  "runId": "6f4fd6a4",
+  "ourFR": 1370,
+  "theirTTFaudio": 1105,
+  "turnPadding": 640,
+  "asr": 67,
+  "llmTTFB": 246,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "aac27b68",
+  "ourFR": 1210,
+  "theirTTFaudio": 949,
+  "turnPadding": 192,
+  "asr": 124,
+  "llmTTFB": 368,
+  "ttsTTFB": 99
+ },
+ {
+  "runId": "1ef8a83c",
+  "ourFR": 1730,
+  "theirTTFaudio": 1509,
+  "turnPadding": 288,
+  "asr": 45,
+  "llmTTFB": 1018,
+  "ttsTTFB": 100
+ },
+ {
+  "runId": "c3180537",
+  "ourFR": 1230,
+  "theirTTFaudio": 952,
+  "turnPadding": 160,
+  "asr": 96,
+  "llmTTFB": 231,
+  "ttsTTFB": 101
+ },
+ {
+  "runId": "0ac14711",
+  "ourFR": 1110,
+  "theirTTFaudio": 956,
+  "turnPadding": 224,
+  "asr": 70,
+  "llmTTFB": 159,
+  "ttsTTFB": 94
+ },
+ {
+  "runId": "931f46a9",
+  "ourFR": 1570,
+  "theirTTFaudio": 1325,
+  "turnPadding": 256,
+  "asr": 95,
+  "llmTTFB": 814,
+  "ttsTTFB": 100
+ },
+ {
+  "runId": "9a1f725a",
+  "ourFR": 790,
+  "theirTTFaudio": 570,
+  "turnPadding": 192,
+  "asr": 85,
+  "llmTTFB": 149,
+  "ttsTTFB": 98
+ },
+ {
+  "runId": "d440cd7d",
+  "ourFR": 1010,
+  "theirTTFaudio": 754,
+  "turnPadding": 256,
+  "asr": 77,
+  "llmTTFB": 154,
+  "ttsTTFB": 98
+ },
+ {
+  "runId": "27f32b9d",
+  "ourFR": 850,
+  "theirTTFaudio": 610,
+  "turnPadding": 224,
+  "asr": 84,
+  "llmTTFB": 157,
+  "ttsTTFB": 95
+ },
+ {
+  "runId": "497c2a8e",
+  "ourFR": 950,
+  "theirTTFaudio": 685,
+  "turnPadding": 224,
+  "asr": 55,
+  "llmTTFB": 262,
+  "ttsTTFB": 99
+ },
+ {
+  "runId": "fe7adf16",
+  "ourFR": 1650,
+  "theirTTFaudio": 1432,
+  "turnPadding": 1024,
+  "asr": 43,
+  "llmTTFB": 233,
+  "ttsTTFB": 89
+ },
+ {
+  "runId": "c42867f9",
+  "ourFR": 1870,
+  "theirTTFaudio": 1707,
+  "turnPadding": 672,
+  "asr": 56,
+  "llmTTFB": 839,
+  "ttsTTFB": 92
+ },
+ {
+  "runId": "7c8e1658",
+  "ourFR": 1030,
+  "theirTTFaudio": 789,
+  "turnPadding": 160,
+  "asr": 79,
+  "llmTTFB": 279,
+  "ttsTTFB": 94
+ },
+ {
+  "runId": "a639cec6",
+  "ourFR": 1250,
+  "theirTTFaudio": 974,
+  "turnPadding": 320,
+  "asr": 107,
+  "llmTTFB": 290,
+  "ttsTTFB": 98
+ },
+ {
+  "runId": "d4cd4ffc",
+  "ourFR": 830,
+  "theirTTFaudio": 665,
+  "turnPadding": 256,
+  "asr": 106,
+  "llmTTFB": 145,
+  "ttsTTFB": 104
+ },
+ {
+  "runId": "29e79e93",
+  "ourFR": 930,
+  "theirTTFaudio": 758,
+  "turnPadding": 288,
+  "asr": 105,
+  "llmTTFB": 209,
+  "ttsTTFB": 102
+ },
+ {
+  "runId": "2d281ab1",
+  "ourFR": 1910,
+  "theirTTFaudio": 1683,
+  "turnPadding": 1344,
+  "asr": 55,
+  "llmTTFB": 140,
+  "ttsTTFB": 102
+ },
+ {
+  "runId": "f43144bd",
+  "ourFR": 1150,
+  "theirTTFaudio": 928,
+  "turnPadding": 288,
+  "asr": 53,
+  "llmTTFB": 245,
+  "ttsTTFB": 107
+ },
+ {
+  "runId": "8a310498",
+  "ourFR": 850,
+  "theirTTFaudio": 613,
+  "turnPadding": 288,
+  "asr": 62,
+  "llmTTFB": 128,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "99ea857c",
+  "ourFR": 1210,
+  "theirTTFaudio": 989,
+  "turnPadding": 544,
+  "asr": 54,
+  "llmTTFB": 256,
+  "ttsTTFB": 96
+ },
+ {
+  "runId": "5959e4c4",
+  "ourFR": 1170,
+  "theirTTFaudio": 975,
+  "turnPadding": 672,
+  "asr": 39,
+  "llmTTFB": 129,
+  "ttsTTFB": 97
+ },
+ {
+  "runId": "3386107b",
+  "ourFR": 1310,
+  "theirTTFaudio": 1039,
+  "turnPadding": 256,
+  "asr": 285,
+  "llmTTFB": 136,
+  "ttsTTFB": 94
+ }
+]
