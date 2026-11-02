@@ -1,0 +1,7 @@
+suite,provider,model,profile,iteration,ok,status,started_at,e2e_ms,ttft_ms,ttft_content_ms,median_itl_ms,chunks,output_chars,reasoning_chars,prompt_tokens,output_tokens,total_tokens,effective_tok_s,token_usage_source,token_usage_error,error_category
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,05_100k_in_100_out,9,false,429,2026-08-26T23:04:04.476Z,,,,,0,0,0,,,,,,,rate_limited
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,05_100k_in_100_out,10,false,429,2026-08-26T23:04:05.140Z,,,,,0,0,0,,,,,,,rate_limited
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,06_100k_in_1k_out,1,false,429,2026-08-26T23:04:05.783Z,,,,,0,0,0,,,,,,,rate_limited
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,06_100k_in_1k_out,4,false,429,2026-08-26T23:04:27.907Z,,,,,0,0,0,,,,,,,rate_limited
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,06_100k_in_1k_out,7,false,429,2026-08-26T23:04:44.614Z,,,,,0,0,0,,,,,,,rate_limited
+deepseek_v4_flash_0731_reasoning_disabled,baseten,deepseek-ai/DeepSeek-V4-Flash-0731,06_100k_in_1k_out,9,false,429,2026-08-26T23:04:52.688Z,,,,,0,0,0,,,,,,,rate_limited
