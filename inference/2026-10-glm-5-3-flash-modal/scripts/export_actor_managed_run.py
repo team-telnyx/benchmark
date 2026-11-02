@@ -9,12 +9,15 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+from url_safety import require_https_url
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def request_json(url: str, timeout: int = 120, resolve_ip: str | None = None):
+    url = require_https_url(url)
     if resolve_ip:
         from urllib.parse import urlsplit
 
@@ -29,7 +32,7 @@ def request_json(url: str, timeout: int = 120, resolve_ip: str | None = None):
             text=True,
         )
         return json.loads(completed.stdout)
-    with urllib.request.urlopen(url, timeout=timeout) as response:
+    with urllib.request.urlopen(url, timeout=timeout) as response:  # nosemgrep: dynamic-urllib-use-detected
         return json.loads(response.read().decode("utf-8"))
 
 

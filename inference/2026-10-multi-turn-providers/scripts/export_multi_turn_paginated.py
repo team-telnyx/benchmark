@@ -13,6 +13,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from url_safety import require_https_url
+
 
 DEFAULT_BASE_URL = os.environ.get("BENCHMARK_ACTOR_URL", "")
 SCORE_FIELDS = (
@@ -25,10 +27,11 @@ SCORE_FIELDS = (
 
 
 def get_json(url: str, attempts: int = 5) -> dict[str, Any]:
+    url = require_https_url(url)
     last_error: Exception | None = None
     for attempt in range(attempts):
         try:
-            with urllib.request.urlopen(url, timeout=180) as response:
+            with urllib.request.urlopen(url, timeout=180) as response:  # nosemgrep: dynamic-urllib-use-detected
                 return json.loads(response.read().decode("utf-8"))
         except (OSError, TimeoutError, urllib.error.HTTPError) as error:
             last_error = error

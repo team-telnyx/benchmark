@@ -13,6 +13,8 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from url_safety import require_https_url
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SYSTEM_PROMPT = (
@@ -26,6 +28,7 @@ def utc_now() -> str:
 
 
 def request_json(url: str, *, method: str = "GET", body: dict | None = None, timeout: int = 60):
+    url = require_https_url(url)
     data = json.dumps(body).encode() if body is not None else None
     request = urllib.request.Request(
         url,
@@ -34,7 +37,7 @@ def request_json(url: str, *, method: str = "GET", body: dict | None = None, tim
         headers={"content-type": "application/json"} if data is not None else {},
     )
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urllib.request.urlopen(request, timeout=timeout) as response:  # nosemgrep: dynamic-urllib-use-detected
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         text = exc.read().decode("utf-8", errors="replace")

@@ -14,6 +14,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any, Iterable
 
+from url_safety import require_https_url
+
 
 SYSTEM_PROMPT = (
     "You are participating in a latency benchmark. Follow the requested output format, "
@@ -178,7 +180,7 @@ def request_stream(
     if affinity_key and endpoint.affinity_header:
         headers[endpoint.affinity_header] = affinity_key
 
-    url = f"{endpoint.base_url}/chat/completions"
+    url = require_https_url(f"{endpoint.base_url}/chat/completions")
     req = urllib.request.Request(url, data=json.dumps(payload).encode(), headers=headers, method="POST")
     first_activity: float | None = None
     first_answer: float | None = None
@@ -191,7 +193,7 @@ def request_stream(
     status: int | None = None
     response_request_id: str | None = None
     try:
-        with urllib.request.urlopen(req, timeout=timeout_seconds) as response:
+        with urllib.request.urlopen(req, timeout=timeout_seconds) as response:  # nosemgrep: dynamic-urllib-use-detected
             status = response.status
             response_request_id = response.headers.get("x-request-id") or response.headers.get("request-id")
             for raw in response:

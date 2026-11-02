@@ -18,6 +18,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from url_safety import require_https_url
+
 
 PROMPT_DIR = Path(__file__).resolve().parents[1] / "config" / "fixtures"
 DEFAULT_BASE_URL = os.environ.get("BENCHMARK_ACTOR_URL", "")
@@ -104,6 +106,7 @@ def load_profiles(selected: list[str] | None) -> list[dict[str, Any]]:
 
 
 def request_json(url: str, *, method: str = "GET", payload: dict[str, Any] | None = None, timeout: float = 120) -> Any:
+    url = require_https_url(url)
     body = None if payload is None else json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(
         url,
@@ -112,7 +115,7 @@ def request_json(url: str, *, method: str = "GET", payload: dict[str, Any] | Non
         method=method,
     )
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urllib.request.urlopen(request, timeout=timeout) as response:  # nosemgrep: dynamic-urllib-use-detected
             text = response.read().decode("utf-8")
             return json.loads(text) if text else None
     except urllib.error.HTTPError as exc:
@@ -121,7 +124,8 @@ def request_json(url: str, *, method: str = "GET", payload: dict[str, Any] | Non
 
 
 def request_text(url: str, timeout: float = 120) -> str:
-    with urllib.request.urlopen(url, timeout=timeout) as response:
+    url = require_https_url(url)
+    with urllib.request.urlopen(url, timeout=timeout) as response:  # nosemgrep: dynamic-urllib-use-detected
         return response.read().decode("utf-8")
 
 

@@ -14,6 +14,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from url_safety import require_https_url
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATASET = ROOT / "config" / "scenarios-and-models.json"
@@ -88,6 +90,7 @@ def request(
     payload: dict[str, Any] | None = None,
     timeout: float = 120,
 ) -> bytes:
+    url = require_https_url(url)
     body = None if payload is None else json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         url,
@@ -96,7 +99,7 @@ def request(
         headers={"Content-Type": "application/json"} if body is not None else {},
     )
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
+        with urllib.request.urlopen(req, timeout=timeout) as response:  # nosemgrep: dynamic-urllib-use-detected
             return response.read()
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")

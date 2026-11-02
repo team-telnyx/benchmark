@@ -13,6 +13,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from url_safety import require_https_url
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATASET = ROOT / "config" / "scenarios-and-models.json"
@@ -21,6 +23,7 @@ EXPORTS = ("results.json", "conversations.csv", "turns.csv", "judges.csv", "obje
 
 
 def request(url: str, method: str = "GET", payload: dict[str, Any] | None = None) -> bytes:
+    url = require_https_url(url)
     body = None if payload is None else json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         url,
@@ -29,7 +32,7 @@ def request(url: str, method: str = "GET", payload: dict[str, Any] | None = None
         headers={"Content-Type": "application/json"} if body is not None else {},
     )
     try:
-        with urllib.request.urlopen(req, timeout=180) as response:
+        with urllib.request.urlopen(req, timeout=180) as response:  # nosemgrep: dynamic-urllib-use-detected
             return response.read()
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")
