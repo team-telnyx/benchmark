@@ -1,0 +1,5 @@
+model,execution_path,n,p50_e2e_seconds,p95_e2e_seconds,p50_ttft_seconds,p95_ttft_seconds
+MiniMax M3,public_endpoint_baseline,60,7.558013,14.721542,1.874758,6.014162
+MiniMax M3,stateful_actor_regional,60,7.274840,12.536874,0.612327,1.805637
+GLM 5.2,public_endpoint_baseline,60,6.001572,10.809098,1.116814,2.443351
+GLM 5.2,stateful_actor_regional,60,4.538202,7.103279,0.756227,4.697151

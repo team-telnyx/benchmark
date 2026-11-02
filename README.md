@@ -7,7 +7,7 @@ Benchmarks run by Telnyx staff. Each section holds a family of benchmarks, and e
 | Section | What it covers | Runs |
 |---|---|---|
 | [`voice-ai/`](voice-ai/) | Voice-AI agent platforms measured over real phone calls | 1 |
-| [`inference/`](inference/) | Inference benchmarks | none yet |
+| [`inference/`](inference/) | Inference benchmarks | 8 |
 
 ## Adding a run
 
