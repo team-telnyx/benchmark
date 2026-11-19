@@ -1,0 +1,20 @@
+{
+  "name": "inference-benchmark-actor",
+  "version": "0.1.0",
+  "description": "Telnyx Edge StatefulActor inference benchmark",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@telnyx/edge-runtime": "0.16.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

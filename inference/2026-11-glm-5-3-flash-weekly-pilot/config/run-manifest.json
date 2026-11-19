@@ -1,0 +1,31 @@
+{
+  "benchmark": "Weekly GLM 5.3 Flash inter-provider pilot",
+  "date": "2026-11-19",
+  "primary_run_id": "weekly-glm53-flash-corrected-full-20261119-001",
+  "retry_run_ids": [],
+  "planned_attempts": 240,
+  "primary_http_successes": 221,
+  "reconciled_http_successes": 221,
+  "answer_complete": 221,
+  "unresolved_failures": 19,
+  "reasoning_effort": "low",
+  "short_completion_limit": 1024,
+  "long_completion_limit": 4096,
+  "runner": "Telnyx Stateful Actor",
+  "actor_region": "us-east-2",
+  "inference_serving_datacenter": "not established",
+  "models": {
+    "telnyx": "zai-org/GLM-5.3-Flash",
+    "baseten": "zai-org/GLM-5.3-Flash",
+    "together": "zai-org/GLM-5.3-Flash",
+    "fireworks": "accounts/fireworks/models/glm-5p3-flash"
+  },
+  "profiles": [
+    "01_1k_in_100_out",
+    "02_1k_in_1k_out",
+    "03_10k_in_100_out",
+    "04_10k_in_1k_out",
+    "05_100k_in_100_out",
+    "06_100k_in_1k_out"
+  ]
+}

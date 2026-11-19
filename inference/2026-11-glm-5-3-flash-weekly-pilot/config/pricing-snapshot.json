@@ -1,0 +1,31 @@
+{
+  "retrieved_on": "2026-11-19",
+  "currency": "USD",
+  "unit": "per 1 million tokens",
+  "rates": {
+    "telnyx": {
+      "input": 0.135,
+      "output": 0.45,
+      "source": "https://telnyx.com/pricing/inference-api"
+    },
+    "baseten": {
+      "input": 0.15,
+      "output": 0.5,
+      "source": "https://www.baseten.co/pricing/"
+    },
+    "together": {
+      "input": 0.15,
+      "output": 0.5,
+      "source": "https://www.together.ai/models/glm-5-3-flash"
+    },
+    "fireworks": {
+      "input": 0.15,
+      "output": 0.5,
+      "source": "https://fireworks.ai/models/fireworks/glm-5p3-flash"
+    }
+  },
+  "notes": [
+    "Pay-as-you-go list rates",
+    "Cached-input prices excluded from estimates because cache usage was not verified"
+  ]
+}
