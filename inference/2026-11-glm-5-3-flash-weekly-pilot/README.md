@@ -13,13 +13,14 @@ Together AI had the lowest median first-visible-answer time and highest median o
 
 `*` Baseten's pooled values are withheld because 19 requests in its 100K-input cells returned HTTP 429. Its valid 1K, 10K and available 100K measurements remain in the full report.
 
-Read [`report/REPORT.md`](report/REPORT.md) for profile-level results, metric definitions, methodology and limitations.
+Read [`report/REPORT.md`](report/REPORT.md) for profile-level results, metric definitions, methodology and limitations. The publication-ready article draft is in [`blog/DEVELOPER_BLOG.md`](blog/DEVELOPER_BLOG.md).
 
 ## Layout
 
 | Path | What it is |
 |---|---|
 | `report/` | Full report and Telnyx-branded charts |
+| `blog/DEVELOPER_BLOG.md` | Developer blog draft referencing the verified report charts |
 | `data/raw-measurements.csv` | All 240 original attempts, including failures, with generated text removed |
 | `data/clean-successful-requests.csv` | The 221 answer-complete rows used for TTFA, E2E and output-speed summaries |
 | `data/http-successful-requests.csv` | All 221 HTTP-successful planned slots |
