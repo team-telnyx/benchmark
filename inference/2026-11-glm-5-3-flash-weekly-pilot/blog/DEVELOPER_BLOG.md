@@ -1,11 +1,11 @@
 ---
-title: "Same model, different API: GLM 5.3 Flash across four inference providers"
-slug: "glm-5-3-flash-inference-provider-benchmark"
-meta_description: "We ran GLM 5.3 Flash across Telnyx, Baseten, Together AI, and Fireworks to compare answer latency, generation speed, reliability, and token cost."
+title: "GLM 5.3 Flash long-context analysis benchmark across four inference providers"
+slug: "glm-5-3-flash-long-context-benchmark"
+meta_description: "We tested GLM 5.3 Flash on literary analysis tasks spanning 1K to 100K input tokens across Telnyx, Baseten, Together AI, and Fireworks."
 featured_image: "images/glm-5-3-flash-p50-e2e.png"
 ---
 
-# Same model, different API: GLM 5.3 Flash across four inference providers
+# GLM 5.3 Flash long-context analysis benchmark across four inference providers
 
 Choosing an open-weight model does not finish the infrastructure decision. Two APIs can expose the same checkpoint and still give an application different response times, failure rates, generation speeds, and token costs. Those differences become especially important for coding agents, document pipelines, and other workflows that cannot take their next action until a response is complete.
 
