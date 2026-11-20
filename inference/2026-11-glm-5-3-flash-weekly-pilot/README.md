@@ -11,7 +11,7 @@ Part of the [inference benchmarks](../README.md). This pilot compared GLM 5.3 Fl
 
 Together AI had the lowest median first-visible-answer time and highest median output speed in all six complete workload comparisons, and the lowest median E2E latency in five of six. Telnyx led median E2E on the 10K-input/long-answer workload, completed 60/60 requests, and had the lowest estimated successful-token cost among the three providers with complete profile coverage.
 
-`*` Baseten's pooled values are withheld because 19 requests in its 100K-input cells returned HTTP 429. Its valid 1K, 10K and available 100K measurements remain in the full report.
+`*` Baseten's pooled values are withheld because the benchmark account's 100K tokens-per-minute limit constrained its 100K-input cells, producing 19 HTTP 429 responses. The 41/60 count is not presented as provider uptime. Its valid 1K, 10K and available 100K measurements remain in the full report.
 
 Read [`report/REPORT.md`](report/REPORT.md) for profile-level results, metric definitions, methodology and limitations. The publication-ready article draft is in [`blog/DEVELOPER_BLOG.md`](blog/DEVELOPER_BLOG.md).
 
@@ -33,7 +33,7 @@ Read [`report/REPORT.md`](report/REPORT.md) for profile-level results, metric de
 
 - TTFT is first model activity; TTFA is first visible answer content.
 - p95 values are observed sample percentiles, not provider SLAs.
-- Baseten's 100K-input cells are incomplete and must not be quoted as balanced ten-request comparisons.
+- Baseten's 100K-input cells were constrained by the benchmark account's 100K tokens-per-minute limit and must not be quoted as balanced ten-request comparisons or provider uptime.
 - Requests ran sequentially with fixed provider order. The weekly automation will randomize comparable cells to reduce time-of-run bias.
 - Estimated costs use successful rows' provider-reported token counts and published uncached list rates. They are not invoices.
 

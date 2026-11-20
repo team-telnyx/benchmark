@@ -11,7 +11,7 @@ Choosing an open-weight model does not finish the infrastructure decision. Two A
 
 We compared [`zai-org/GLM-5.3-Flash`](https://developers.telnyx.com/docs/inference/models) on [Telnyx Inference](https://telnyx.com/products/inference), Baseten, Together AI, and Fireworks. Every provider received the same six public-domain text workloads, sampling settings, reasoning effort, completion limits, and streaming behavior from one common request origin.
 
-The result was not a single winner across every metric. Together AI started and generated answers faster in most workload cells. Telnyx completed all 60 planned requests, recorded the lowest estimated token cost among the providers with complete samples, and remained close to Together on pooled median completed-response latency. Baseten returned HTTP 429 responses for 19 of its 20 long-context requests, so we kept those failures in the reliability result and withheld its incomplete pooled latency and cost figures.
+The result was not a single winner across every metric. Together AI started and generated answers faster in most workload cells. Telnyx completed all 60 planned requests, recorded the lowest estimated token cost among the providers with complete samples, and remained close to Together on pooled median completed-response latency. Baseten returned HTTP 429 responses for 19 of its 20 long-context requests. The benchmark account's dashboard listed a 100K tokens-per-minute limit for GLM 5.3 Flash, so we treat those failures as an account-quota constraint rather than evidence of provider serving reliability. The attempts remain in the dataset, while Baseten's incomplete pooled latency and cost figures are withheld.
 
 That separation is the point of this benchmark: **responsiveness, completion speed, reliability, and cost answer different production questions.**
 
@@ -24,7 +24,7 @@ That separation is the point of this benchmark: **responsiveness, completion spe
 | Together AI | **60/60** | **0.44s** | **5.51s** | **9.23s** | **195.8 tok/s** | $0.322 |
 | Fireworks | **60/60** | 1.15s | 7.76s | 13.54s | 123.5 tok/s | $0.321 |
 
-`*` Baseten's pooled metrics are withheld because its two 100K-input cells were incomplete. Valid measurements and sample counts remain available in the [public benchmark dataset](https://github.com/team-telnyx/benchmark/tree/main/inference/2026-11-glm-5-3-flash-weekly-pilot).
+`*` Baseten's pooled metrics are withheld because its two 100K-input cells were constrained by the benchmark account's 100K tokens-per-minute limit. The 41/60 figure is observed completion under that account limit, not a provider uptime claim. Valid measurements and sample counts remain available in the [public benchmark dataset](https://github.com/team-telnyx/benchmark/tree/main/inference/2026-11-glm-5-3-flash-weekly-pilot).
 
 The cost estimate applies captured input and output token counts to the published pay-as-you-go prices used for the comparison. It is not an invoice and excludes discounts, credits, caching, and failed requests without reported usage.
 
@@ -61,11 +61,13 @@ Once answer text began, Together had the highest pooled median output rate at **
 
 Output rate becomes increasingly important as requested answers get longer. It helps explain why providers with similar first-answer timing can finish a generation-heavy request at different times.
 
-## Reliability changed the usable comparison
+## Baseten's account limit constrained the long-context sample
 
-Telnyx, Together, and Fireworks each produced visible answer content for all **60 of 60** planned requests. Baseten completed **41 of 60**. Its 19 failures were HTTP 429 responses in the two 100K-input workloads: nine failures in the short-answer cell and ten in the long-answer cell.
+Telnyx, Together, and Fireworks each produced visible answer content for all **60 of 60** planned requests. Baseten completed **41 of 60**. Its 19 failures were HTTP 429 `rate_limit_exceeded` responses in the two 100K-input workloads: nine failures in the short-answer cell and ten in the long-answer cell.
 
-We did not replace those failures with successful retries or exclude them from the dataset. Failed requests remain part of the reliability result. Baseten's successful workload cells are still reported individually, but pooling an incomplete long-context sample with its completed short-context cells would make its overall latency look more representative than it is.
+The Baseten dashboard showed a GLM 5.3 Flash limit of **15 requests per minute and 100K tokens per minute** for the account used. The first successful 100K request reported **88,861 total tokens**, consuming most of that minute's token allowance before subsequent requests arrived. We therefore classify the incomplete cells as quota-constrained, not as a general Baseten reliability result.
+
+We did not replace those failures with successful retries or exclude them from the dataset. Baseten's successful 1K and 10K workload cells are still reported individually, but pooling an incomplete long-context sample with its completed short-context cells would make its overall latency look more representative than it is.
 
 ## Telnyx had the lowest published token rates in the comparison
 
@@ -102,6 +104,7 @@ Requests ran sequentially. Provider order was fixed rather than randomized, so c
 - The prompts measure serving behavior across controlled context and output sizes. They do not compare answer quality.
 - The benchmark did not verify prompt-cache hits or estimate cached-input savings.
 - Ten observations per workload cell are enough to expose differences worth investigating, but not to characterize every tail-latency condition.
+- Baseten's 41/60 observed completion reflects the benchmark account's 100K tokens-per-minute limit and should not be interpreted as provider uptime.
 
 ## Measure the latency your application actually waits for
 
@@ -139,7 +142,7 @@ print(f"First visible answer: {first_answer:.2f}s")
 print(f"Completed response: {completed:.2f}s")
 ```
 
-Use prompts and output lengths from your real workflow, retain failures, and measure the event the application actually waits for. In this comparison, Telnyx's clearest strengths were **complete request reliability, the lowest estimated token cost among complete providers, and competitive completed-response latency**. Together led most raw speed measures. Both findings matter when choosing an inference API.
+Use prompts and output lengths from your real workflow, retain failures, and measure the event the application actually waits for. In this comparison, Telnyx's clearest strengths were **60/60 completion under the tested limits, the lowest estimated token cost among complete providers, and competitive completed-response latency**. Together led most raw speed measures. Both findings matter when choosing an inference API.
 
 [Start building with Telnyx Inference](https://telnyx.com/products/inference), or inspect the [public benchmark report, datasets, configuration, and charts](https://github.com/team-telnyx/benchmark/tree/main/inference/2026-11-glm-5-3-flash-weekly-pilot) before adapting the test to your workload.
 

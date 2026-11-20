@@ -17,7 +17,7 @@ The primary run recorded **221/240 HTTP-successful requests**. After any targete
 
 **Definitions:** TTFT is time to first model activity. TTFA is time to first visible answer content. E2E ends when the streamed response completes. TTFA, E2E, and output-speed percentiles use answer-complete requests only. The p95 values are observed sample percentiles, not provider SLAs.
 
-`*` Baseten's pooled metrics and total cost are withheld because its 100K cells were incomplete. Its valid per-workload measurements remain in the detailed table.
+`*` Baseten's pooled metrics and total cost are withheld because the benchmark account's GLM 5.3 Flash limit was 100K tokens per minute, constraining its 100K-input cells. The 41/60 figure is observed completion under that account quota, not a provider uptime measurement. Its valid per-workload measurements remain in the detailed table.
 
 ![Median completed-response latency](assets/glm-5-3-flash-p50-e2e.png)
 
@@ -75,6 +75,8 @@ The primary run recorded **221/240 HTTP-successful requests**. After any targete
 - Baseten 100K input / short answer: 9 original HTTP 429 failure(s).
 - Baseten 100K input / long answer: 10 original HTTP 429 failure(s).
 
+The Baseten account used for this benchmark showed limits of 15 requests per minute and 100K tokens per minute for GLM 5.3 Flash. Its first successful 100K request reported 88,861 total tokens. The subsequent `rate_limit_exceeded` responses are therefore categorized as account-quota constrained, not as evidence of provider serving downtime.
+
 Retries fill only failed planned slots in the reconciled dataset. They do not alter the original reliability rate, and every original failure remains in `raw-measurements.csv`.
 
 ## Cost scope
@@ -95,6 +97,7 @@ Published pay-as-you-go list rates were retrieved on November 19, 2026. The cost
 
 - This is a point-in-time observational benchmark, not an SLA.
 - Cells with fewer than ten answered requests have weaker tail estimates and show their sample sizes in the table and charts.
+- Baseten's 41/60 completion count reflects the tested account's 100K tokens-per-minute quota and must not be interpreted as provider uptime.
 - Provider load, routing, implementation, and pricing can change independently.
 - The Moby-Dick prompts measure serving behavior across controlled context sizes; they are not a general model-quality benchmark.
 
