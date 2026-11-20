@@ -2,7 +2,7 @@
 title: "GLM 5.3 Flash long-context analysis benchmark across four inference providers"
 slug: "glm-5-3-flash-long-context-benchmark"
 meta_description: "We tested GLM 5.3 Flash on literary analysis tasks spanning 1K to 100K input tokens across Telnyx, Baseten, Together AI, and Fireworks."
-featured_image: "images/glm-5-3-flash-p50-e2e.png"
+featured_image: "../report/assets/telnyx-10k-long-answer-p50-e2e.png"
 ---
 
 # GLM 5.3 Flash long-context analysis benchmark across four inference providers
@@ -34,15 +34,13 @@ End-to-end latency measures the full request, from sending the prompt until the 
 
 Together AI recorded the lowest pooled median completed-response latency at **5.51 seconds**. Telnyx followed at **5.73 seconds**, ahead of Fireworks at **7.76 seconds**. Telnyx also recorded the lowest median E2E time for the 10K-input, long-answer workload: **8.42 seconds**, compared with **8.55 seconds** on Together, **13.27 seconds** on Fireworks, and **19.47 seconds** on Baseten.
 
-![Median completed-response latency for GLM 5.3 Flash](../report/assets/glm-5-3-flash-p50-e2e.png)
+![Telnyx recorded the lowest median completed-response latency for the 10K-input long-answer workload](../report/assets/telnyx-10k-long-answer-p50-e2e.png)
 
 The workload-level result is more useful than declaring one universal speed ranking. Short answers emphasize prompt processing and startup time. Long answers place more weight on generation speed. Long-context requests add a much larger prefill workload before generation begins.
 
 ## Tail latency favored Together in this sample
 
 Median latency describes a typical observation. Tail latency helps show what slower requests looked like in the measured sample. Together recorded the lowest observed p95 E2E value in all six complete workload comparisons.
-
-![Observed p95 completed-response latency for GLM 5.3 Flash](../report/assets/glm-5-3-flash-observed-p95-e2e.png)
 
 These p95 values are interpolated sample percentiles from ten planned requests per provider and workload, not provider SLAs. One slow response can move a small-sample p95 substantially. They are useful for identifying behavior worth retesting, but they should not be read as a promise about future production traffic.
 
@@ -55,23 +53,17 @@ GLM 5.3 Flash can stream reasoning before it emits answer text. We therefore tra
 
 Together had the lowest pooled median TTFA at **0.44 seconds**, followed by Telnyx at **0.93 seconds** and Fireworks at **1.15 seconds**. Baseten's pooled value is not reported because its long-context sample was incomplete.
 
-![Median time to first visible answer for GLM 5.3 Flash](../report/assets/glm-5-3-flash-p50-ttfa.png)
-
 For a chat interface, TTFA often shapes perceived responsiveness. For an agent that waits for a complete response before calling a tool, E2E latency may be the more relevant measure. Reporting only “time to first token” can hide the time spent streaming reasoning before useful answer content appears.
 
 ## Generation speed separated the providers
 
 Once answer text began, Together had the highest pooled median output rate at **195.8 tokens per second**. Telnyx followed at **156.7 tokens per second**, and Fireworks recorded **123.5 tokens per second**.
 
-![Median output speed for GLM 5.3 Flash](../report/assets/glm-5-3-flash-output-speed.png)
-
 Output rate becomes increasingly important as requested answers get longer. It helps explain why providers with similar first-answer timing can finish a generation-heavy request at different times.
 
 ## Reliability changed the usable comparison
 
 Telnyx, Together, and Fireworks each produced visible answer content for all **60 of 60** planned requests. Baseten completed **41 of 60**. Its 19 failures were HTTP 429 responses in the two 100K-input workloads: nine failures in the short-answer cell and ten in the long-answer cell.
-
-![Request reliability for GLM 5.3 Flash](../report/assets/glm-5-3-flash-reliability.png)
 
 We did not replace those failures with successful retries or exclude them from the dataset. Failed requests remain part of the reliability result. Baseten's successful workload cells are still reported individually, but pooling an incomplete long-context sample with its completed short-context cells would make its overall latency look more representative than it is.
 
@@ -82,6 +74,8 @@ The published pay-as-you-go rates captured for GLM 5.3 Flash were **$0.135 per m
 ![Published GLM 5.3 Flash token pricing](../report/assets/glm-5-3-flash-pricing.png)
 
 Applied to successful requests with reported token usage, the estimated total was **$0.289 on Telnyx**, **$0.322 on Together**, and **$0.321 on Fireworks**. Baseten's incomplete sample is not given a pooled total. The estimates assume uncached input because the benchmark did not receive verified cached-token counts.
+
+![Telnyx recorded the lowest estimated successful-token cost among providers with complete samples](../report/assets/telnyx-estimated-successful-token-cost.png)
 
 ## How we benchmarked GLM 5.3 Flash
 
