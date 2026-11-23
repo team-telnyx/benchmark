@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scheduled_date": "2026-11-23",
+  "generated_at": "2026-11-23T17:43:37.909891+00:00",
+  "actor_origin": "Telnyx Stateful Actor",
+  "featured": {
+    "suite": "deepseek_v41_flash_1017",
+    "label": "DeepSeek V4.1 Flash 1017",
+    "task": "Moby-Dick serving and long-context performance"
+  },
+  "sentinel_suite": "glm_53_flash",
+  "profiles": [
+    "01_1k_in_100_out",
+    "02_1k_in_1k_out",
+    "03_10k_in_100_out",
+    "04_10k_in_1k_out",
+    "05_100k_in_100_out",
+    "06_100k_in_1k_out"
+  ],
+  "run_ids": [
+    {
+      "smoke": "weekly-deepseek_v41_flash_1017-smoke-20261123-174337",
+      "warmup": "weekly-deepseek_v41_flash_1017-warmup-20261123-174337",
+      "measured": "weekly-deepseek_v41_flash_1017-measured-20261123-174337"
+    }
+  ],
+  "disclosure": "Run by Telnyx staff; Telnyx Inference was one of the compared endpoints."
+}
