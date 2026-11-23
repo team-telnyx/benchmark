@@ -15,5 +15,6 @@ Inference model and provider benchmarks run by Telnyx staff. Each run is self-co
 | [`2026-10-multi-turn-providers/`](2026-10-multi-turn-providers/) | Three model families across four providers on multi-turn workflows | Telnyx recorded the lowest median and observed p95 conversation response time for all three model families | Telnyx, Baseten, Together AI, Fireworks |
 | [`2026-10-glm-5-3-flash-modal/`](2026-10-glm-5-3-flash-modal/) | GLM 5.3 Flash managed endpoint comparison | Telnyx completed responses faster; Modal Shared had stronger p95 first-visible-answer latency in most cells | Telnyx, Modal Shared |
 | [`2026-11-glm-5-3-flash-weekly-pilot/`](2026-11-glm-5-3-flash-weekly-pilot/) | Weekly GLM 5.3 Flash provider pilot with explicit low reasoning effort | Together led most speed measures; Telnyx completed 60/60 and had the lowest estimated cost among complete providers | Telnyx, Baseten, Together AI, Fireworks |
+| [`2026-11-23-weekly-inference/`](2026-11-23-weekly-inference/) | GLM 5.3 Flash fresh-prompt serving and long-context performance | Telnyx and Fireworks completed 60/60 requests; Together led most speed measures; rate-limit and server failures remain disclosed | Telnyx, Baseten, Together AI, Fireworks |
 
 See [ARCHIVE_MIGRATION.md](ARCHIVE_MIGRATION.md) for the historical inclusion and exclusion record.

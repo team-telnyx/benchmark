@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680">
+<rect width="100%" height="100%" fill="#050505"/>
+<style>text{font-family:Arial,sans-serif;fill:#fefdf5}.muted{fill:#aaa9a3}.label{font-size:25px}.value{font-size:24px;font-weight:700}</style>
+<text x="70" y="75" font-size="44" font-weight="700">Request reliability: glm_53_flash</text>
+<text x="70" y="118" class="muted" font-size="22">HTTP successes across all measured attempts | percent, higher is better</text>
+<text x="70" y="218" class="label">Fireworks</text>
+<rect x="300" y="190" width="900.0" height="42" rx="4" fill="#777773"/>
+<text x="1220.0" y="220" class="value">100.00%</text>
+<text x="70" y="323" class="label">Telnyx</text>
+<rect x="300" y="295" width="900.0" height="42" rx="4" fill="#00e3aa"/>
+<text x="1220.0" y="325" class="value">100.00%</text>
+<text x="70" y="428" class="label">Together</text>
+<rect x="300" y="400" width="855.0" height="42" rx="4" fill="#777773"/>
+<text x="1175.0" y="430" class="value">95.00%</text>
+<text x="70" y="533" class="label">Baseten</text>
+<rect x="300" y="505" width="630.0" height="42" rx="4" fill="#777773"/>
+<text x="950.0" y="535" class="value">70.00%</text>
+</svg>
