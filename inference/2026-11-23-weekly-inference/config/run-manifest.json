@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scheduled_date": "2026-11-23",
+  "generated_at": "2026-11-23T03:14:27.142122+00:00",
+  "actor_origin": "Telnyx Stateful Actor",
+  "featured": {
+    "suite": "glm_53_flash",
+    "label": "GLM 5.3 Flash",
+    "task": "Moby-Dick serving and long-context performance"
+  },
+  "sentinel_suite": "glm_53_flash",
+  "profiles": [
+    "01_1k_in_100_out",
+    "02_1k_in_1k_out",
+    "03_10k_in_100_out",
+    "04_10k_in_1k_out",
+    "05_100k_in_100_out",
+    "06_100k_in_1k_out"
+  ],
+  "run_ids": [
+    {
+      "smoke": "weekly-glm_53_flash-smoke-20261123-031427",
+      "warmup": "weekly-glm_53_flash-warmup-20261123-031427",
+      "measured": "weekly-glm_53_flash-measured-20261123-031427"
+    }
+  ],
+  "disclosure": "Run by Telnyx staff; Telnyx Inference was one of the compared endpoints."
+}

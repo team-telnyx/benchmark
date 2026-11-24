@@ -1,0 +1,24 @@
+{
+  "anchor_sunday": "2026-11-22",
+  "sentinel_suite": "glm_53_flash",
+  "featured_rotation": [
+    {"suite": "glm_53_flash", "label": "GLM 5.3 Flash", "task": "Moby-Dick serving and long-context performance"},
+    {"suite": "glm_53", "label": "GLM 5.3", "task": "Moby-Dick serving and long-context performance"},
+    {"suite": "kimi_k31_pro", "label": "Kimi K3.1 Pro", "task": "Moby-Dick serving and long-context performance"},
+    {"suite": "kimi_k3", "label": "Kimi K3", "task": "Moby-Dick serving and long-context performance"},
+    {"suite": "deepseek_v41_flash_1017", "label": "DeepSeek V4.1 Flash 1017", "task": "Moby-Dick serving and long-context performance"},
+    {"suite": "qwen38_27b", "label": "Qwen3.8 27B", "task": "Moby-Dick serving and long-context performance"}
+  ],
+  "profiles": [
+    "01_1k_in_100_out",
+    "02_1k_in_1k_out",
+    "03_10k_in_100_out",
+    "04_10k_in_1k_out",
+    "05_100k_in_100_out",
+    "06_100k_in_1k_out"
+  ],
+  "smoke_profile": "01_1k_in_100_out",
+  "warmup_repeats": 5,
+  "measured_repeats": 10,
+  "reasoning_note": "Provider-specific settings are declared in start_run.py. Exact model IDs and accepted settings must pass the smoke run before measured work begins."
+}
