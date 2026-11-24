@@ -48,6 +48,16 @@ Failures remain in the request-level dataset and are excluded from latency perce
 
 ## Charts
 
+### HTTP reliability across all profiles
+
+![HTTP reliability across all profiles](charts/deepseek-v41-flash-http-reliability.png)
+
+### 100K-context generation speed
+
+![100K-context generation speed](charts/deepseek-v41-flash-100k-output-speed.png)
+
+The generation-speed chart includes only HTTP-successful responses that reached visible answer content. The unequal sample sizes are printed on the chart and should be considered when comparing medians.
+
 ### Median completed-response latency
 
 ![Median completed-response latency](charts/deepseek_v41_flash_1017-median-e2e.svg)
